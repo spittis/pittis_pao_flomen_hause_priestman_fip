@@ -1,0 +1,29 @@
+{
+  "name": "pittis_pao_flomen_hause_priestman_fip",
+  "version": "1.0.0",
+  "description": "Final Integrated Project - Organ Donation Campaign",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip.git"
+  },
+  "keywords": [
+    "organ",
+    "donation",
+    "ontario",
+    "canada"
+  ],
+  "author": "Soraya Pittis, Jaclyn Flomen, Allison Pao, Blake Hause, Jordan Priestman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip/issues"
+  },
+  "homepage": "https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
