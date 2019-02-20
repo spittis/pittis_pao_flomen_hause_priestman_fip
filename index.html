@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Organ Donation Campaign - Home</title>
+    <title>Create The Connection</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!--VUE-->
@@ -17,6 +17,47 @@
 </head>
 <body>
     
+    <main id="app">
+
+    <img id="logo" src="images/logo.svg" width="200px">
+
+        <nav role="navigation">
+                <div id="menuToggle">
+        <input id="checkbox" type="checkbox"/>
+                
+        <span></span>
+        <span></span>
+        <span></span>
+       
+    <ul id="menu">
+        <div id="nav">
+            <router-link :to="{ path: '/promotions'}"><li>Home</li></router-link>
+            <router-link :to="{ path: '/promotions'}"><li>Sign Up</li></router-link>
+            <a href="index.html"><li>Our Stories</li></a>
+            <a href="index.html"><li>Events</li></a>
+            <a href="index.html"><li>Testimonies</li></a>
+            <router-link :to="{ path: '/form'}"><li>Contact</li></router-link>
+        </div>
+
+        <div id="socialIcons">
+                <ul id="socialMed">
+                        <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                        <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                        <li><a href="#"><img src="images/youtube.svg" alt="youtube"></a></li>
+                </ul>
+        </div>
+    </ul>
+
+    
+</div>
+</nav>
+    
+    <transition name="fade" mode="out-in">
+        <router-view id="move"></router-view>
+    </transition>
+
+</main>
 
 
 
