@@ -79,6 +79,7 @@
 
   #menu a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   #menu li a {
@@ -92,19 +93,22 @@
   /* SOCIAL ICONS */
   #socialMed {
     text-align: center;
-    float: none;
-    margin-right: 2em;
+    float: left;
     margin-top: 2.5em;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   #socialMed li {
     list-style: none;
     display: inline;
-    margin-right: 0.75em;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   #socialMed li a img {
-    width: 2em;
+    width: 1.1em;
+    -webkit-filter: brightness(100);
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -127,16 +131,14 @@
   }
 
   #menu li {
-    padding: 5px 10px 0px 10px;
+    margin: 10px 10px 10px 5px;
     display: block;
-    color: black;
-    font-weight: lighter;
+    color: white;
     text-align: center;
     float: left;
-    font-size: 80%;
     font-weight: bold;
-    font-size: 1em;
-    border-bottom: 5px solid white;
+    border-bottom: 4px solid #393e46;
+    font-size: 0.65em;
   }
 
   #menu {
@@ -144,12 +146,37 @@
     z-index: 1;
     text-align: center;
     float: right;
-    padding-right: 8%;
-    padding-top: 2%;
+    background: #393e46;
+    width: 100%;
   }
 
   #menu li:hover {
-    border-bottom: 5px solid #393e46;
+    border-bottom: 4px solid #f93d44;
+  }
+
+  /* SOCIAL ICONS */
+  #socialMed {
+    text-align: center;
+    float: right;
+    padding-right: 2%;
+  }
+
+  #socialMed li {
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+    border-bottom: 0px;
+  }
+
+  #socialMed li a img {
+    width: 1.5em;
+    -webkit-filter: brightness(100);
+  }
+
+  #socialMed li:hover {
+    border-bottom: 0px;
+    -webkit-filter: brightness(70);
   }
 }
 @media (min-width: 769px) {
@@ -193,6 +220,31 @@
 
   #menu li:hover {
     border-bottom: 5px solid #f93d44;
+  }
+
+  /* SOCIAL ICONS */
+  #socialMed {
+    text-align: center;
+    float: right;
+    padding-right: 2%;
+  }
+
+  #socialMed li {
+    list-style: none;
+    display: inline;
+    margin-left: 0;
+    padding-left: 0;
+    border-bottom: 0px;
+  }
+
+  #socialMed li a img {
+    width: 2em;
+    -webkit-filter: brightness(100);
+  }
+
+  #socialMed li:hover {
+    border-bottom: 0px;
+    -webkit-filter: brightness(70);
   }
 }
 @-webkit-keyframes bounce {
