@@ -1,0 +1,23 @@
+footer {
+    clear: both;
+    background-color: $dark-grey;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul li {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 4em;
+    text-align: left;
+}
+
+footer ul li a {
+    font-weight: normal;
+    display: block;
+}
