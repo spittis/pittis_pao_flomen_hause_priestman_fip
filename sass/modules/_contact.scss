@@ -1,0 +1,47 @@
+#contact {
+    clear: both;
+    width: 50%;
+}
+
+#contact form input, textarea {
+    border: 0.2em $blue solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    width: 25em;
+    font-size: 0.5em;
+    margin-top: 0.5em;
+}
+
+#contact form textarea {
+    height: 10em;
+}
+
+#contact ::placeholder {
+    font-family: $body;
+    font-size: 150%;
+}
+
+#contact h1 {
+    color: $blue;
+    text-transform: uppercase;
+    margin-left: 2.5em;
+}
+
+#contact form label {
+    color: $blue;
+}
+
+#contact form, p {
+    margin-left: 5em;
+}
+
+#submit {
+    background-color: $red;
+    font-family: $body;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+    width: 7.5em;
+}

@@ -57,6 +57,24 @@
         <router-view id="move"></router-view>
     </transition>
 
+    <div id="contact">
+        <h1>Get In Touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy nibh euismod tincidLor- em ipsum dolor.
+        </p>
+        <form>        
+                <label for="name">Name:</label><br>
+                <input v-model="input.name" type="text" id="name" name="name" value="" placeholder="Name" required><br><br>
+        
+                <label for="email">Email:</label><br>
+                <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
+
+                <label for="msg">Message:</label><br>
+                <textarea v-model="input.msg" type="msg" id="msg" name="msg" value="" placeholder="Message" required></textarea><br><br>
+        
+                <button @click.prevent="signup()" type="submit" id="submit" name="submit">Submit</button>
+        </form>
+    </div>
+
 
     <footer>
         <ul>
