@@ -105,7 +105,11 @@
     margin-top: 2em; }
 
   #contact h1, p {
-    width: 100%; } }
+    width: 100%; }
+
+  #contactIMG {
+    width: 100%;
+    margin-top: 1.5em; } }
 @media (min-width: 480px) and (max-width: 768px) {
   /* LOGO */
   #logo {
@@ -178,7 +182,11 @@
 
   #contact {
     margin-left: 5em;
-    width: 100%; } }
+    width: 100%; }
+
+  #contactIMG {
+    width: 100%;
+    margin-top: 1.5em; } }
 @media (min-width: 769px) {
   /* LOGO */
   #logo {
@@ -241,7 +249,15 @@
     display: inline;
     text-align: left;
     margin-left: 3em;
-    margin-right: 3em; } }
+    margin-right: 3em; }
+
+  #contactIMG {
+    width: 49%;
+    float: right; }
+
+  #contact {
+    float: left;
+    width: 49%; } }
 footer {
   clear: both;
   background-color: #393e46;
@@ -262,7 +278,7 @@ footer ul li a {
 
 #contact {
   clear: both;
-  width: 50%; }
+  width: 49%; }
 
 #contact form input, textarea {
   border: 0.2em #28adb3 solid;
@@ -298,7 +314,8 @@ footer ul li a {
   color: white;
   padding: 0.5em;
   font-size: 1em;
-  width: 7.5em; }
+  width: 7.5em;
+  margin-bottom: 1em; }
 
 @-webkit-keyframes bounce {
   from,
