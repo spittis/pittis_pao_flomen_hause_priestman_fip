@@ -139,7 +139,20 @@
     -webkit-filter: brightness(100); //this makes the social media icons white
 }
 
+footer ul li {
+    display: block;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+}
 
+footer ul li:nth-child(3){
+    margin-top: 2em;
+}
+
+#contact h1, p {
+    width: 100%;
+}
 
 }
 
@@ -251,8 +264,25 @@ border-bottom: 4px solid $red; //this is the nav underline
 
 
   
+footer ul li {
+    display: block;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
 
+footer ul li:nth-child(3){
+    margin-top: 2em;
+}
 
+#contact h1, p {
+    width: 100%;
+}
+
+#contact {
+    margin-left: 5em;
+    width: 100%;
+}
 }
 
 //TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET TABLET
@@ -356,6 +386,13 @@ border-bottom: 5px solid $red; //this is the nav underline
     -webkit-filter: brightness(70); //this makes the social media icons less bright on hover
 }
 
+
+footer ul li {
+    display: inline;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+}
 
 }
 
