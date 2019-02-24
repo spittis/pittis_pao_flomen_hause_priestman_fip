@@ -129,7 +129,7 @@
     width: 100%; }
 
   #menu li:hover {
-    border-bottom: 4px solid #f93d44; }
+    border-bottom: 4px solid #ec424c; }
 
   /* SOCIAL ICONS */
   #socialMed {
@@ -186,7 +186,7 @@
     width: 100%; }
 
   #menu li:hover {
-    border-bottom: 5px solid #f93d44; }
+    border-bottom: 5px solid #ec424c; }
 
   /* SOCIAL ICONS */
   #socialMed {
@@ -227,6 +227,46 @@ footer ul li {
 footer ul li a {
   font-weight: normal;
   display: block; }
+
+#contact {
+  clear: both;
+  width: 50%; }
+
+#contact form input, textarea {
+  border: 0.2em #28adb3 solid;
+  padding: 1em;
+  border-radius: 0.5em;
+  width: 25em;
+  font-size: 0.5em;
+  margin-top: 0.5em; }
+
+#contact form textarea {
+  height: 10em; }
+
+#contact ::placeholder {
+  font-family: "Oswald", sans-serif;
+  font-size: 150%; }
+
+#contact h1 {
+  color: #28adb3;
+  text-transform: uppercase;
+  margin-left: 2.5em; }
+
+#contact form label {
+  color: #28adb3; }
+
+#contact form, p {
+  margin-left: 5em; }
+
+#submit {
+  background-color: #ec424c;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 7.5em; }
 
 @-webkit-keyframes bounce {
   from,
@@ -2678,10 +2718,13 @@ body {
   -moz-animation-delay: 2s; }
 
 nav {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase; }
 
 footer {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Roboto", sans-serif; }
+
+#contact {
+  font-family: "Oswald", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
