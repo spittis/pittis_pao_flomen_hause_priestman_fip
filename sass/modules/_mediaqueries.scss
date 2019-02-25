@@ -9,7 +9,7 @@
 
 #logo
 {
-    width: 70%;
+    width: 20%;
     margin-left: 3%;
     margin-top: 4%;
     margin-bottom: 4%;
@@ -21,7 +21,7 @@
 #menuToggle //three span lines
 {
   display: block;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 5%;
   right: 5%;
@@ -74,7 +74,7 @@
 	
 #menu
 {
-  position: fixed;
+  position: absolute;
   margin: -100px 0 0 -180px;
   width: 200px;
   padding-top: 75px;
@@ -139,7 +139,26 @@
     -webkit-filter: brightness(100); //this makes the social media icons white
 }
 
+footer ul li {
+    display: block;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+}
 
+footer ul li:nth-child(3){
+    margin-top: 2em;
+}
+
+#contact h1, p {
+    width: 100%;
+}
+
+
+#contactIMG {
+    width: 100%;
+    margin-top: 1.5em;
+}
 
 }
 
@@ -170,7 +189,7 @@
 
 #logo
 {
-        width: 35%;
+        width: 10%; //play around with this when you get the actual logo - same goes for other sizes
         margin-top: 2%;
         margin-left: 4%;
        // position: relative;
@@ -251,7 +270,30 @@ border-bottom: 4px solid $red; //this is the nav underline
 
 
   
+footer ul li {
+    display: block;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
 
+footer ul li:nth-child(3){
+    margin-top: 2em;
+}
+
+#contact h1, p {
+    width: 100%;
+}
+
+#contact {
+    margin-left: 5em;
+    width: 100%;
+}
+
+#contactIMG {
+    width: 100%;
+    margin-top: 1.5em;
+}
 
 }
 
@@ -277,7 +319,7 @@ border-bottom: 4px solid $red; //this is the nav underline
 
 #logo
 {
-    width: 20%;
+    width: 8%;
     margin-top: 3%;
     margin-bottom: 1%;
     margin-left: 4%;
@@ -357,6 +399,22 @@ border-bottom: 5px solid $red; //this is the nav underline
 }
 
 
+footer ul li {
+    display: inline;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+#contactIMG {
+    width: 49%;
+    float: right;
+}
+#contact {
+    float: left;
+    width: 49%;
+}
 }
 
 //DESKTOP
