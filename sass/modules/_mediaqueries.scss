@@ -139,6 +139,25 @@
     -webkit-filter: brightness(100); //this makes the social media icons white
 }
 
+#profiles {
+    margin: 0%;
+}
+
+#profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#profiles ul li {
+    display: block;
+}
+
+#profiles ul li img {
+    width: 100%;
+}
+
 footer ul li {
     display: block;
     text-align: center;
@@ -290,7 +309,25 @@ border-bottom: 4px solid $red; //this is the nav underline
     -webkit-filter: brightness(70); //this makes the social media icons less bright on hover
 }
 
+#profiles {
+    margin: 0%;
+}
 
+#profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#profiles ul li {
+    display: inline;
+}
+
+#profiles ul li img {
+    width: 25%;
+    float: left;
+}
   
 footer ul li {
     display: block;
@@ -440,6 +477,28 @@ border-bottom: 5px solid $red; //this is the nav underline
     -webkit-filter: brightness(70); //this makes the social media icons less bright on hover
 }
 
+#profiles {
+    margin: 0%;
+}
+
+#profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#profiles ul li {
+    display: inline;
+}
+
+
+#profiles ul li img {
+    width: 25%;
+    float: left;
+    display: block;
+}
+
 
 footer ul li {
     display: inline;
@@ -447,6 +506,7 @@ footer ul li {
     margin-left: 3em;
     margin-right: 3em;
 }
+
 
 
 #contactIMG {
