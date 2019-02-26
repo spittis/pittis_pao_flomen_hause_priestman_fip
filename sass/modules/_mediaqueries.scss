@@ -200,6 +200,33 @@ footer ul li:nth-child(3){
     float: left;
 }
 
+//Join section
+#join
+{
+    clear: both;
+    width: 100%;
+}
+
+#join img {
+    width: 100%;
+}
+
+#join h1 {
+    font-family: $body;
+    font-size: 2rem;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#join p {
+    font-family: $body;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
 
 }
 
@@ -373,6 +400,34 @@ footer ul li:nth-child(3){
     width: 100%;
     float: left;
 }
+
+//Join section
+#join
+{
+    clear: both;
+    width: 100%;
+}
+
+#join img {
+    width: 100%;
+}
+
+#join h1 {
+    font-family: $body;
+    font-size: 3rem;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#join p {
+    font-family: $body;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
 
 }
 
@@ -565,6 +620,33 @@ footer ul li {
 {
     width: 33%;
     float: left;
+}
+
+//Join section
+#join
+{
+    clear: both;
+    width: 100%;
+}
+
+#join img {
+    width: 100%;
+}
+
+#join h1 {
+    font-family: $body;
+    font-size: 3rem;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#join p {
+    font-family: $body;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
 }
 
 }
