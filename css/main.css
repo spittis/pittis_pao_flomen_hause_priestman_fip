@@ -123,29 +123,20 @@
 
   #contactIMG {
     width: 100%;
-<<<<<<< HEAD
-    margin-top: 1.5em; } }
-=======
-    margin-top: 1.5em;
-  }
+    margin-top: 1.5em; }
 
   /* EVENTS SECTION */
   #event1 {
     width: 100%;
-    float: left;
-  }
+    float: left; }
 
   #event2 {
     width: 100%;
-    float: left;
-  }
+    float: left; }
 
   #event3 {
     width: 100%;
-    float: left;
-  }
-}
->>>>>>> 07cb37ba15a30ce42b47cc8a85e10fe441f96625
+    float: left; } }
 @media (min-width: 480px) and (max-width: 768px) {
   /* LOGO */
   #logo {
@@ -237,29 +228,20 @@
 
   #contactIMG {
     width: 100%;
-<<<<<<< HEAD
-    margin-top: 1.5em; } }
-=======
-    margin-top: 1.5em;
-  }
+    margin-top: 1.5em; }
 
   /* EVENTS SECTION */
   #event1 {
     width: 100%;
-    float: left;
-  }
+    float: left; }
 
   #event2 {
     width: 100%;
-    float: left;
-  }
+    float: left; }
 
   #event3 {
     width: 100%;
-    float: left;
-  }
-}
->>>>>>> 07cb37ba15a30ce42b47cc8a85e10fe441f96625
+    float: left; } }
 @media (min-width: 769px) {
   /* LOGO */
   #logo {
@@ -346,29 +328,20 @@
 
   #contact {
     float: left;
-<<<<<<< HEAD
-    width: 49%; } }
-=======
-    width: 49%;
-  }
+    width: 49%; }
 
   /* EVENTS SECTION */
   #event1 {
     width: 33%;
-    float: left;
-  }
+    float: left; }
 
   #event2 {
     width: 33%;
-    float: left;
-  }
+    float: left; }
 
   #event3 {
     width: 33%;
-    float: left;
-  }
-}
->>>>>>> 07cb37ba15a30ce42b47cc8a85e10fe441f96625
+    float: left; } }
 footer {
   clear: both;
   background-color: #393e46;
@@ -389,60 +362,51 @@ footer ul li a {
 
 #event1 img {
   width: 90%;
-  padding: 5%;
-}
+  padding: 5%; }
 
 #event1 h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   font-weight: bold;
-  color: #28adb3;
-}
+  color: #28adb3; }
 
 #event1 p {
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 15%;
-}
+  padding-bottom: 15%; }
 
 #event2 img {
   width: 90%;
-  padding: 5%;
-}
+  padding: 5%; }
 
 #event2 h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   font-weight: bold;
-  color: #28adb3;
-}
+  color: #28adb3; }
 
 #event2 p {
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 15%;
-}
+  padding-bottom: 15%; }
 
 #event3 img {
   width: 90%;
-  padding: 5%;
-}
+  padding: 5%; }
 
 #event3 h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 2em;
   font-weight: bold;
-  color: #28adb3;
-}
+  color: #28adb3; }
 
 #event3 p {
   text-align: center;
   margin: 0 auto;
-  padding-bottom: 15%;
-}
+  padding-bottom: 15%; }
 
 .edate {
   width: 50%;
@@ -451,8 +415,7 @@ footer ul li a {
   color: #ec424c;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .location {
   width: 50%;
@@ -461,13 +424,11 @@ footer ul li a {
   color: #ec424c;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .elocation {
   width: 100%;
-  padding-bottom: 20%;
-}
+  padding-bottom: 20%; }
 
 #contact {
   clear: both;
