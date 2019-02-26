@@ -7,9 +7,13 @@
     border: 0.2em $blue solid;
     padding: 1em;
     border-radius: 0.5em;
-    width: 25em;
     font-size: 0.5em;
     margin-top: 0.5em;
+}
+
+#contact form input {
+    height: 3em;
+    padding-top: 1.5em;
 }
 
 #contact form textarea {
@@ -18,22 +22,19 @@
 
 #contact ::placeholder {
     font-family: $body;
-    font-size: 150%;
+    font-size: 2em;
+    color: $blue;
 }
 
 #contact h1 {
     color: $blue;
     text-transform: uppercase;
-    margin-left: 2.5em;
+    // margin-left: 2.5em;
 }
 
-#contact form label {
-    color: $blue;
-}
-
-#contact form, p {
-    margin-left: 5em;
-}
+// #contact form, p {
+//     margin-left: 5em;
+// }
 
 #submit {
     background-color: $red;

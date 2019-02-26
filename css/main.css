@@ -118,12 +118,28 @@
   footer ul li:nth-child(3) {
     margin-top: 2em; }
 
-  #contact h1, p {
+  #contact h1 {
+    margin-left: 2.24em;
+    width: 100%; }
+
+  #contact p {
+    width: 125%; }
+
+  #contact form input, textarea {
+    width: 30em;
+    margin-left: 0 !important; }
+
+  #contact {
+    clear: both;
+    margin: 0px !important;
     width: 100%; }
 
   #contactIMG {
     width: 100%;
     margin-top: 1.5em; }
+
+  #contact form, p {
+    margin-left: 4.5em; }
 
   /* EVENTS SECTION */
   #event1 {
@@ -250,6 +266,12 @@
   #contactIMG {
     width: 100%;
     margin-top: 1.5em; }
+
+  #contact form input, textarea {
+    width: 35em; }
+
+  #contact form, p {
+    margin-left: 5em; }
 
   /* EVENTS SECTION */
   #event1 {
@@ -378,6 +400,12 @@
   #contact h1 {
     font-size: 3em;
     margin-left: 1.6em !important; }
+
+  #contact form input, textarea {
+    width: 35em; }
+
+  #contact form, p {
+    margin-left: 5em; }
 
   /* EVENTS SECTION */
   #event1 {
@@ -509,27 +537,24 @@ footer ul li a {
   border: 0.2em #28adb3 solid;
   padding: 1em;
   border-radius: 0.5em;
-  width: 25em;
   font-size: 0.5em;
   margin-top: 0.5em; }
+
+#contact form input {
+  height: 3em;
+  padding-top: 1.5em; }
 
 #contact form textarea {
   height: 10em; }
 
 #contact ::placeholder {
   font-family: "Oswald", sans-serif;
-  font-size: 150%; }
+  font-size: 2em;
+  color: #28adb3; }
 
 #contact h1 {
   color: #28adb3;
-  text-transform: uppercase;
-  margin-left: 2.5em; }
-
-#contact form label {
-  color: #28adb3; }
-
-#contact form, p {
-  margin-left: 5em; }
+  text-transform: uppercase; }
 
 #submit {
   background-color: #ec424c;
