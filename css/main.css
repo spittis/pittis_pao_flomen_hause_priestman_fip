@@ -308,10 +308,13 @@
     margin: 0;
     padding: 0; }
 
-  #profiles ul li {
-    display: inline; }
+  #profiles ul div li {
+    display: inline;
+    position: relative;
+    padding: 0;
+    margin: 0; }
 
-  #profiles ul li img {
+  #profiles ul div li img {
     width: 25%;
     float: left;
     display: block; }

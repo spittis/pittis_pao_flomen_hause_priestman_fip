@@ -488,16 +488,44 @@ border-bottom: 5px solid $red; //this is the nav underline
 
 }
 
-#profiles ul li {
+#profiles ul div li {
     display: inline;
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 
-#profiles ul li img {
+#profiles ul div li img {
     width: 25%;
     float: left;
     display: block;
+    // max-width: 100%;
+    // height: auto;
 }
+    
+    // .caption {
+    // opacity: 0;
+    // position: absolute;
+    // color: white;
+    // left: 0;
+    // top: 13.45em; //will need to edit with everything else
+    // text-align: left;
+    // padding-top: 3px;
+    // z-index: 2;
+    // font-family: $body;
+    // -webkit-box-sizing: border-box;
+    // box-sizing: border-box;
+    // background-color: $blue; 
+    // -webkit-transition: opacity .3s ease-in-out;
+    // transition: opacity .3s ease-in-out;
+    // }
+    
+    // #profiles ul li:hover .caption {
+    // opacity: 1;
+    // }
+
+
 
 
 footer ul li {
