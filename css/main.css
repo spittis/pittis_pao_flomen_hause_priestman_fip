@@ -136,7 +136,28 @@
 
   #event3 {
     width: 100%;
-    float: left; } }
+    float: left; }
+
+  #join {
+    clear: both;
+    width: 100%; }
+
+  #join img {
+    width: 100%; }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 1em; }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%; } }
 @media (min-width: 480px) and (max-width: 768px) {
   /* LOGO */
   #logo {
@@ -241,7 +262,28 @@
 
   #event3 {
     width: 100%;
-    float: left; } }
+    float: left; }
+
+  #join {
+    clear: both;
+    width: 100%; }
+
+  #join img {
+    width: 100%; }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 0; }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%; } }
 @media (min-width: 769px) {
   /* LOGO */
   #logo {
@@ -308,10 +350,13 @@
     margin: 0;
     padding: 0; }
 
-  #profiles ul li {
-    display: inline; }
+  #profiles ul div li {
+    display: inline;
+    position: relative;
+    padding: 0;
+    margin: 0; }
 
-  #profiles ul li img {
+  #profiles ul div li img {
     width: 25%;
     float: left;
     display: block; }
@@ -341,7 +386,28 @@
 
   #event3 {
     width: 33%;
-    float: left; } }
+    float: left; }
+
+  #join {
+    clear: both;
+    width: 100%; }
+
+  #join img {
+    width: 100%; }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 0; }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%; } }
 footer {
   clear: both;
   background-color: #393e46;
