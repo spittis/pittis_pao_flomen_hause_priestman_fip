@@ -1,7 +1,7 @@
 # Create The Connection
 Organ Donation Camapign
 
-![logo](https://github.com/spittis/pittis_pao_flomen_priestman_hause_midterm/blob/master/images/Logo_Icon.svg)
+![logo](https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip/blob/master/images/Logo_Icon.svg)
 
 We are the producers of the Organ Donation Campaign, Create The Connection. We are based in London, Ontario, Canada. 
 
