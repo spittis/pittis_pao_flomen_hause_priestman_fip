@@ -1,7 +1,7 @@
 # Create The Connection
 Organ Donation Camapign
 
-![logo](pittis_pao_flomen_hause_priestman_fip/images/Logo_Icon.svg)
+![logo](https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip/images/Logo_Icon.svg)
 
       
 
