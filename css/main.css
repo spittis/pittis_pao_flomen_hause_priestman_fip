@@ -3,16 +3,17 @@
   #logo {
     width: 20%;
     margin-left: 3%;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-bottom: 4%;
+    position: fixed;
   }
 
   /* MENU TOGGLE -- all nav styling is here */
   #menuToggle {
     display: block;
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    top: 5%;
+    top: 7%;
     right: 5%;
   }
 
@@ -34,7 +35,7 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: black;
+    background: #393e46;
     z-index: 1;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -89,6 +90,14 @@
     transform: none;
   }
 
+  #top {
+    background: white;
+  }
+
+  #checkbox {
+    background: white;
+  }
+
   /* SOCIAL ICONS */
   #socialMed {
     text-align: center;
@@ -110,6 +119,24 @@
     -webkit-filter: brightness(100);
   }
 
+  #profiles {
+    margin: 0%;
+  }
+
+  #profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #profiles ul li {
+    display: block;
+  }
+
+  #profiles ul li img {
+    width: 100%;
+  }
+
   footer ul li {
     display: block;
     text-align: center;
@@ -121,13 +148,33 @@
     margin-top: 2em;
   }
 
-  #contact h1, p {
+  #contact h1 {
+    margin-left: 2.24em;
+    width: 100%;
+  }
+
+  #contact p {
+    width: 125%;
+  }
+
+  #contact form input, textarea {
+    width: 30em;
+    margin-left: 0 !important;
+  }
+
+  #contact {
+    clear: both;
+    margin: 0px !important;
     width: 100%;
   }
 
   #contactIMG {
     width: 100%;
     margin-top: 1.5em;
+  }
+
+  #contact form, p {
+    margin-left: 4.5em;
   }
 
   /* EVENTS SECTION */
@@ -144,6 +191,38 @@
   #event3 {
     width: 100%;
     float: left;
+  }
+
+  #events h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    margin-top: 20%;
+  }
+
+  #join {
+    clear: both;
+    width: 100%;
+    padding-top: 25%;
+  }
+
+  #join img {
+    width: 100%;
+  }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%;
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -214,6 +293,25 @@
     -webkit-filter: brightness(70);
   }
 
+  #profiles {
+    margin: 0%;
+  }
+
+  #profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #profiles ul li {
+    display: inline;
+  }
+
+  #profiles ul li img {
+    width: 25%;
+    float: left;
+  }
+
   footer ul li {
     display: block;
     text-align: center;
@@ -239,6 +337,14 @@
     margin-top: 1.5em;
   }
 
+  #contact form input, textarea {
+    width: 35em;
+  }
+
+  #contact form, p {
+    margin-left: 5em;
+  }
+
   /* EVENTS SECTION */
   #event1 {
     width: 100%;
@@ -253,6 +359,37 @@
   #event3 {
     width: 100%;
     float: left;
+  }
+
+  #events h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    margin-top: 45%;
+  }
+
+  #join {
+    clear: both;
+    width: 100%;
+  }
+
+  #join img {
+    width: 100%;
+  }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%;
   }
 }
 @media (min-width: 769px) {
@@ -323,6 +460,29 @@
     -webkit-filter: brightness(70);
   }
 
+  #profiles {
+    margin: 0%;
+  }
+
+  #profiles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #profiles ul div li {
+    display: inline;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  #profiles ul div li img {
+    width: 25%;
+    float: left;
+    display: block;
+  }
+
   footer ul li {
     display: inline;
     text-align: left;
@@ -340,6 +500,19 @@
     width: 49%;
   }
 
+  #contact h1 {
+    font-size: 3em;
+    margin-left: 1.6em !important;
+  }
+
+  #contact form input, textarea {
+    width: 35em;
+  }
+
+  #contact form, p {
+    margin-left: 5em;
+  }
+
   /* EVENTS SECTION */
   #event1 {
     width: 33%;
@@ -354,6 +527,38 @@
   #event3 {
     width: 33%;
     float: left;
+  }
+
+  #events h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    margin-top: 45%;
+  }
+
+  #join {
+    clear: both;
+    width: 100%;
+  }
+
+  #join img {
+    width: 100%;
+  }
+
+  #join h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+    color: #28adb3;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  #join p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1em;
   }
 }
 footer {
@@ -460,6 +665,12 @@ footer ul li a {
   padding-bottom: 20%;
 }
 
+#events h1 {
+  font-family: "Oswald", sans-serif;
+  color: #28adb3;
+  text-align: center;
+}
+
 #contact {
   clear: both;
   width: 49%;
@@ -469,9 +680,13 @@ footer ul li a {
   border: 0.2em #28adb3 solid;
   padding: 1em;
   border-radius: 0.5em;
-  width: 25em;
   font-size: 0.5em;
   margin-top: 0.5em;
+}
+
+#contact form input {
+  height: 3em;
+  padding-top: 1.5em;
 }
 
 #contact form textarea {
@@ -480,21 +695,13 @@ footer ul li a {
 
 #contact ::placeholder {
   font-family: "Oswald", sans-serif;
-  font-size: 150%;
+  font-size: 2em;
+  color: #28adb3;
 }
 
 #contact h1 {
   color: #28adb3;
   text-transform: uppercase;
-  margin-left: 2.5em;
-}
-
-#contact form label {
-  color: #28adb3;
-}
-
-#contact form, p {
-  margin-left: 5em;
 }
 
 #submit {

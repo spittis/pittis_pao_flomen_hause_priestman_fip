@@ -18,7 +18,7 @@
 <body>
     
     <main id="app">
-
+<div id="top">
     <img id="logo" src="images/Logo_Icon.svg">
 
         <nav role="navigation">
@@ -52,10 +52,59 @@
     
 </div>
 </nav>
+</div>
 
+<div id="header"></div>
+
+<div id="waitCount"></div>
+
+<div id="vidLearn">
+    <div id="video">
+        <img src="images/Video_Template.jpg">
+    </div>
+    <div id="learnMore">
+        
+    </div>
+</div>
+
+<div id="join">
+    <h1>JOIN THESE DONORS</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu- ismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim</p>
+    <img src="images/Donor_Cards.jpg" alt="">
+</div>
+
+
+<div id="profiles">
+    <ul>
+        <div>
+            <li><img src="images/Eye_Profile_FemaleOne.jpg" alt="">
+                <!-- <figcaption class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
+            </li>
+        </div>
+        <div>
+            <li><img src="images/Eye_Profile_FemaleTwo.jpg" alt="">
+                <!-- <figcaption class="caption">2Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
+            </li>
+        </div>
+
+        <div>
+            <li><img src="images/Eye_Profile_MaleOne.jpg" alt="">
+                <!-- <figcaption class="caption">3Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
+            </li>
+        </div>
+
+        <div>
+            <li><img src="images/Eye_Profile_MaleTwo.jpg" alt="">
+                <!-- <figcaption class="caption">4Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
+            </li>
+        </div>
+    </ul>
+    </div>
+    
 
 <div id="events">
 
+    <h1>UPCOMING EVENTS</h1>
 
     <div id="event1">
         <img src="images/Events_One.jpg">
@@ -87,19 +136,15 @@
 </div>
     
     
-
     <div id="contact">
         <h1>Get In Touch</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy nibh euismod tincidLor- em ipsum dolor.
         </p>
         <form>        
-                <label for="name">Name:</label><br>
                 <input v-model="input.name" type="text" id="name" name="name" value="" placeholder="Name" required><br><br>
         
-                <label for="email">Email:</label><br>
                 <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
 
-                <label for="msg">Message:</label><br>
                 <textarea v-model="input.msg" type="msg" id="msg" name="msg" value="" placeholder="Message" required></textarea><br><br>
         
                 <button @click.prevent="signup()" type="submit" id="submit" name="submit">Submit</button>
