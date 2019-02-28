@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/spittis/pittis_pao_flomen_hause_priestman_fip#readme",
   "dependencies": {
+    "ajax": "0.0.4",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "waypoints": "^4.0.1"
   }
 }
