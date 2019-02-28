@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create The Connection</title>
+    <title>Ontario Connect</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!--VUE-->
@@ -19,7 +19,19 @@
     
     <main id="app">
 <div id="top">
-    <img id="logo" src="images/Logo_Icon.svg">
+    <img id="logo" src="images/Ontario_Connect_Logo.svg">
+
+        <div id="emailUs">
+            <img src="images/Location.svg">
+            <h3>Email Us</h3>
+            <p>info@taptap.ca</p>
+        </div>
+
+        <div id="callUs">
+            <img src="images/Phone.svg">
+            <h3>Call Us</h3>
+            <p>1-800-319-2312</p>
+        </div>
 
         <nav role="navigation">
                 <div id="menuToggle">
@@ -31,7 +43,7 @@
        
     <ul id="menu">
         <div id="nav">
-            <router-link :to="{ path: '/promotions'}"><li>Home</li></router-link>
+            <router-link :to="{ path: '/promotions'}"><li id="firstNav">Home</li></router-link>
             <router-link :to="{ path: '/promotions'}"><li>Sign Up</li></router-link>
             <a href="index.html"><li>Our Stories</li></a>
             <a href="index.html"><li>Events</li></a>
@@ -54,16 +66,33 @@
 </nav>
 </div>
 
-<div id="header"></div>
 
-<div id="waitCount"></div>
+<div id="header">
+    <img id="heads" src="images/HeroImage.jpg" alt="header of faces" title="faces">
+</div>
+
+<div id="waitCount">
+    <div id="donorCount">
+        <h3>Become a Donor, Save a Life</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore</p>
+    </div>
+    <p id="number">1,500</p>
+    <p id="waitList">Waiting on a list for transplant</p>
+</div>
 
 <div id="vidLearn">
     <div id="video">
         <img src="images/Video_Template.jpg">
     </div>
     <div id="learnMore">
-        
+        <h1>LEARN MORE</h1>
+        <ul>
+            <li>One donor can save up to 8 lives through organ donation and enhance the lives of up to 75 more.</li>
+            <li>Age alone does not disqualify someone fom becoming a donor. There is always potential to be a donor; it shouldn’t stop you from registering.</li>
+            <li>Your current or past medical history does not prevent you from registering to be a donor. Individuals with serious illnesses can be organ donors</li>
+            <li>All major religions support organ and tissue donation</li>
+            <li>Organ and tissue donation does not impact your funeral plans</li>
+        </ul>
     </div>
 </div>
 
