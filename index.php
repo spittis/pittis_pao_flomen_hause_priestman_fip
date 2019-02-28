@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -125,7 +126,14 @@
         <h1>Get In Touch</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy nibh euismod tincidLor- em ipsum dolor.
         </p>
-        <form>        
+        <script>
+            function process(e){
+                e.preventDefault();
+                console.log(e);
+            }//document.getElementById("signUpForm");
+          
+        </script>
+        <form id="signUpForm" onsubmit="process()" action="admin/sendEmail.php" method="POST">        
                 <input v-model="input.name" type="text" id="name" name="name" value="" placeholder="Name" required><br><br>
         
                 <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
@@ -192,3 +200,13 @@
     
 </body>
 </html>
+
+<?php if(isset($_GET['status']) && $_GET['status'] == 'successful'): ?>
+    <script>
+        alert("Thank you for reaching out");
+    </script>
+<?php elseif(isset($_GET['status'])): ?>
+    <script>
+        alert("shit happens");
+    </script>
+<?php endif; unset($_GET); ?>
