@@ -170,7 +170,7 @@
         <h1>Get In Touch</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipisc- ing elit, sed diam nonummy nibh euismod tincidLor- em ipsum dolor.
         </p>
-        <form action="admin/sendEmail.php" method="POST">        
+        <form action="admin/sendEmail.php" id="contactForm" method="POST">        
                 <input v-model="input.name" type="text" id="name" name="name" value="" placeholder="Name" required><br><br>
         
                 <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
@@ -182,12 +182,15 @@
                 <span id="success_message" class="text-success"></span>
         </form>
  <script>
- $(document).ready(function(){
-     $('#submit').click(function(){
+ $(function(){
+     $('#contactForm').submit(function(e){
+        e.preventDefault();
+
        var name = $('#name').val();
        var msg = $('#msg').val();
+       var email = $("#email").val();
 
-       if(name == '' || message == '')
+       if(name == '' || msg == '' || email == '')
        {
            $('#error_message').html("All Fields are required");
        }
@@ -195,15 +198,23 @@
        {
            $('#error_message').html('');
            $.ajax({
-               url:"sendEmail.php",
+               url:"admin/sendEmail.php",
                method:"POST",
-               data:{name:name, msg:msg},
-               success:function(data){
+               type: "json",
+               data:{name:name, msg:msg, email:email},
+               success:function(json){ 
+                   if(!json.success){
+                        $("#error_message").fadeIn().html(json.message);
+                        setTimeOut(function(){
+                            $('#success_message').fadeOut('slow');
+                        }, 2000);
+
+                        return console.error(json);
+                   }//end if
+
+
                    $("form").trigger("reset");
-                   $('#success_message').fadeIn().html(data);
-                   setTimeOut(function(){
-                      $('#success_message').fadeOut('slow');
-                   }, 2000);
+                   $("#success_message").text(json.data).fadeIn(500).delay(5000).fadeOut(250);
                }
            });
        }
@@ -261,7 +272,7 @@
    
 <!-- JS below -->
 <script src="js/videocontrols.js"></script> 
-<script src="js/gulpfile.js"></script>
+<script src="gulpfile.js"></script>
 <script src="js/main.js"></script>
 <script src="js/master.js"></script>
 <script src="js/scrolltotop.js"></script>
