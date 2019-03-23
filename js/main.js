@@ -25,7 +25,7 @@ const router = new VueRouter ({
 });
 
 const vm = new Vue ({
-    // el: '#app',
+    el: '#app',
 
     data: {
         // message: "Hi from vue!",
