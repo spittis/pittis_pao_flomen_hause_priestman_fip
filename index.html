@@ -20,262 +20,35 @@
      <!-- <script src="js/noframework.waypoints.min.js"></script>
      <script src="js/mywaypoint.js"></script> -->
 
+     <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
 </head>
 <body>
     
-    <main id="app">
+<main id="app">
 
-        <p><span>{{ message }}</span></p>
+<!-- COMPONENTS BELOW -->
+<span v-html="navComponent"></span>
+<span v-html="headerComponent"></span>
+<span v-html="waitComponent"></span>
+<span v-html="videoComponent"></span>
+<span v-html="donorsComponent"></span>
+<span v-html="profilesComponent"></span>
+<span v-html="eventsComponent"></span>
+<span v-html="contactComponent"></span>
+<span v-html="footerComponent"></span>
 
-        
-
-<div id="top">
-    <img id="logo" src="images/Ontario_Connect_Logo.svg">
-
-        <div id="emailUs">
-            <img src="images/Location.svg">
-            <h3>Email Us</h3>
-            <p>info@taptap.ca</p>
-        </div>
-
-        <div id="callUs">
-            <img src="images/Phone.svg">
-            <h3>Call Us</h3>
-            <p>1-800-319-2312</p>
-        </div>
-
-        <nav role="navigation">
-                <div id="menuToggle">
-        <input id="checkbox" type="checkbox"/>
-                
-        <span></span>
-        <span></span>
-        <span></span>
-       
-    <ul id="menu">
-        <div id="nav">
-            <router-link :to="{ path: '/promotions'}"><li id="firstNav">Home</li></router-link>
-            <router-link :to="{ path: '/promotions'}"><li>Sign Up</li></router-link>
-            <a href="index.html"><li>Our Stories</li></a>
-            <a href="index.html"><li>Events</li></a>
-            <a href="index.html"><li>Testimonies</li></a>
-            <router-link :to="{ path: '/form'}"><li>Contact</li></router-link>
-        </div>
-
-        <div id="socialIcons">
-                <ul id="socialMed">
-                        <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
-                        <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
-                        <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
-                        <li><a href="#"><img src="images/Linkdin.svg" alt="linkedin"></a></li>
-                </ul>
-        </div>
-    </ul>
-
-    
-</div>
-</nav>
-</div>
-
-
-
-<div id="header">
-    <img id="heads" src="images/HeroImage.jpg" alt="header of faces" title="faces">
-</div>
-
-<div id="waitCount">
-    <div id="donorCount">
-        <h3>Become a Donor, Save a Life</h3>
-        <p>You can save up to 8 peoples lives by becoming a donor. Every three days someone dies in Ontario because the life-saving organ transplant they need is not available, it's often a matter of life and death.</p>
-    </div>
-    <p id="number">4,500</p>
-    <p id="waitList">Waiting on a list for transplant</p>
-</div>
-
-<div id="vidLearn">
-    <div id="video">
-        <img src="images/Video_Template.jpg">
-    </div>
-    <div id="learnMore">
-        <h1>LEARN MORE</h1>
-        <ul>
-            <li>One donor can save up to 8 lives through organ donation and enhance the lives of up to 75 more.</li>
-            <li>Age alone does not disqualify someone fom becoming a donor. There is always potential to be a donor; it shouldn’t stop you from registering.</li>
-            <li>Your current or past medical history does not prevent you from registering to be a donor. Individuals with serious illnesses can be organ donors</li>
-            <li>All major religions support organ and tissue donation</li>
-            <li>Organ and tissue donation does not impact your funeral plans</li>
-        </ul>
-    </div>
-</div>
-
-<div id="join">
-    <h1>JOIN THESE DONORS</h1>
-    <p>Now in Ontario, you can register your consent to become an organ and tissue donor online. It only takes a few minutes to register!</p>
-    <img src="images/Donor_Cards.jpg" alt="">
-</div>
-
-
-<div id="profiles">
-    <ul>
-        <div>
-            <li><img src="images/Eye_Profile_FemaleOne.jpg" alt="">
-                <!-- <figcaption class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
-            </li>
-        </div>
-        <div>
-            <li><img src="images/Eye_Profile_FemaleTwo.jpg" alt="">
-                <!-- <figcaption class="caption">2Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
-            </li>
-        </div>
-
-        <div>
-            <li><img src="images/Eye_Profile_MaleOne.jpg" alt="">
-                <!-- <figcaption class="caption">3Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
-            </li>
-        </div>
-
-        <div>
-            <li><img src="images/Eye_Profile_MaleTwo.jpg" alt="">
-                <!-- <figcaption class="caption">4Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit illum quae vero sit, eligendi modi ipsam odio est facere, molestias vel commodi voluptates repellendus tempora? Soluta eveniet nemo perferendis.</figcaption> -->
-            </li>
-        </div>
-    </ul>
-    </div>
-    
-
-<div id="events">
-
-    <h1>UPCOMING EVENTS</h1>
-
-    <div id="event1">
-        <img src="images/Events_One.jpg">
-        <h3>Donor Wanted: A Panel Discussion on Public Appeals for Living Organ Donors</h3>
-        <p>How do you start a conversation about the need for a living organ donor? What are the benefits and risks of using social media and other public platforms? Are there ethical guidelines or recommended practices to guide patients and families? What is the role of the care team? Join us for an informative and interactive discussion on this timely topic.</p>
-        <div class="elocation">
-            <div class="location">Toronto General Hospital</div>
-            <div class="edate">Friday, March 29</div>
-        </div>
-    </div>
-    <div id="event2">
-            <img src="images/Events_Two.jpg">
-            <h3>Pathways to Liver Transplantation</h3>
-            <p>Are you considering a liver transplant? Do you have questions about living donor assessment or life after transplant? Would you like to connect with others on the same journey? Join UHN’s liver transplant team for this interactive seminar.</p>
-            <div class="elocation">
-                    <div class="location">Toronto General Hospital</div>
-                    <div class="edate">Tuesday, March 5</div>
-            </div>
-    </div>
-    <div id="event3">
-            <img src="images/Events_Three.jpg">
-            <h3>The Annual Kidney Walk</h3>
-            <p>Every year, some 15,000 volunteers and participants gather at Kidney Walks in communities throughout the country to raise awareness and funds for those in need of kidney transplants.</p>
-            <div class="elocation">
-                    <div class="location">Yonge and Dundas Square</div>
-                    <div class="edate">Tuesday, May 4</div>
-            </div>
-    </div>
-</div>
-    
-    
-<!-- <div id="contact">
-    <h1>Get In Touch</h1>
-    <p>Want to learn more about the ways you can help save someone's life? Ask away! We would love to help inform you more on the topic!
-    </p>
-    <form action="admin/sendEmail.php" id="contactForm" method="POST">        
-            <input v-model="input.name" type="text" id="name" name="name" value="" placeholder="Name" required><br><br>
-    
-            <input v-model="input.email" type="email" id="email" name="email" value="" placeholder="Email Address" required><br><br>
-
-            <textarea v-model="input.msg" type="msg" id="msg" name="msg" value="" placeholder="Message" required></textarea><br><br>
-    
-            <button @click.prevent="signup()" type="submit" id="submit" name="submit">Submit</button>
-            <span id="error_message" class="text-danger"></span>
-            <span id="success_message" class="text-success"></span>
-    </form>
-
-<script>
-$(function(){
- $('#contactForm').submit(function(e){
-    e.preventDefault();
-
-   var name = $('#name').val();
-   var msg = $('#msg').val();
-   var email = $("#email").val();
-
-   if(name == '' || msg == '' || email == '')
-   {
-       $('#error_message').html("All Fields are required");
-   }
-   else
-   {
-       $('#error_message').html('');
-       $.ajax({
-           url:"admin/sendEmail.php",
-           method:"POST",
-           type: "json",
-           data:{name:name, msg:msg, email:email},
-           success:function(json){ 
-               if(!json.success){
-                    $("#error_message").fadeIn().html(json.message);
-                    setTimeOut(function(){
-                        $('#success_message').fadeOut('slow');
-                    }, 2000);
-
-                    return console.error(json);
-               }//end if
-
-
-               $("form").trigger("reset");
-               $("#success_message").text(json.data).fadeIn(500).delay(5000).fadeOut(250);
-           }
-       });
-   }
- });
-});
-</script>
-
-</div> -->
-    <img src="images/Contact.jpg" id="contactIMG" alt="contactIMG">
-
-
-    <footer>
-        <ul>
-            <li>CONTACT
-                <a>How do I register?</a>
-                <a>How do I log in?</a>
-            </li>
-
-            <li>FAQS
-                <a>How do I register?</a>
-                <a>How do I log in?</a>
-            </li> 
-
-            <li>HEALTH CARE MEMBERS
-                <a>Jack Nathan Health</a>
-                <a>Sunnybrook Health Sciences Centre</a>
-            </li>
-        </ul>
-    </footer>
-
-
-</main>
-
-
-
-
-    <!-- <transition name="fade" mode="out-in">
+<!-- ROUTER TRANSITION -->
+    <transition name="fade" mode="out-in">
         <router-view id="move"></router-view>
     </transition> -->
 
 
 
+</main>
 
-
-
-
-
-
-   
 <!-- JS below -->
 <!-- <script src="js/videocontrols.js"></script>  -->
 <script src="gulpfile.js"></script>
