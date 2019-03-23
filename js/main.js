@@ -21,6 +21,10 @@ const vm = new Vue ({
         message: "Hi from vue!",
     },
 
+    // header: {
+    //     name: 'header', component: promotionsComponent,
+    // },
+
     created: function(){
         console.log('hello hello');
     },
