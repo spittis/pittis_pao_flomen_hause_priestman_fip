@@ -161,15 +161,15 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 100%;
+    width: 90%;
     float: left; }
 
   #event2 {
-    width: 100%;
+    width: 90%;
     float: left; }
 
   #event3 {
-    width: 100%;
+    width: 90%;
     float: left; }
 
   #events h1 {
@@ -503,21 +503,25 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 33%;
+    width: 30%;
     float: left; }
 
   #event2 {
-    width: 33%;
+    width: 30%;
     float: left; }
 
   #event3 {
-    width: 33%;
+    width: 30%;
     float: left; }
 
   #events h1 {
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%; }
+
+    .event {
+      padding: 1em;
+    }
 
   #join {
     clear: both;
@@ -701,7 +705,8 @@ footer ul li a {
 
 #event1 p {
   text-align: center;
-  margin: 0 auto;
+  margin-left: 0.5%;
+  margin-right: 2.5%;
   padding-bottom: 15%; }
 
 #event2 img {
@@ -717,7 +722,8 @@ footer ul li a {
 
 #event2 p {
   text-align: center;
-  margin: 0 auto;
+  margin-left: 0.5%;
+  margin-right: 2.5%;
   padding-bottom: 15%; }
 
 #event3 img {
@@ -733,7 +739,8 @@ footer ul li a {
 
 #event3 p {
   text-align: center;
-  margin: 0 auto;
+  margin-left: 0.5%;
+  margin-right: 2.5%;
   padding-bottom: 15%; }
 
 .edate {
@@ -742,7 +749,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold; }
 
 .location {
@@ -751,7 +758,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bold; }
 
 .elocation {
