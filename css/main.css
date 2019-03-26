@@ -151,6 +151,10 @@
   footer ul li:nth-child(3) {
     margin-top: 2em; }
 
+  #contactSection {
+    clear: both;
+    padding-top: 2.5%; }
+
   #contact h1 {
     margin-left: 2.24em;
     width: 100%; }
@@ -386,11 +390,15 @@
   footer ul li:nth-child(3) {
     margin-top: 2em; }
 
+  #contactSection {
+    clear: both;
+    padding-top: 2%; }
+
   #contact h1, p {
     width: 100%; }
 
   #contact {
-    margin-left: 5em;
+    margin-left: 25%;
     width: 100%; }
 
   #contactIMG {
@@ -590,6 +598,10 @@
     text-align: left;
     margin-left: 3em;
     margin-right: 3em; }
+
+  #contactSection {
+    clear: both;
+    padding-top: 5%; }
 
   #contactIMG {
     width: 49%;
