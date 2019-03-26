@@ -19,6 +19,24 @@
     display: none;
 }
 
+#top {
+    padding-bottom: 15px;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+
+  #top.top-fixed {
+    background: rgba(255, 255, 255, 0.7); /*Nav colour*/
+    height: 100px;
+    transition: all 0.5s;
+  }
+
+
 #logo
 {
     width: 50%;
@@ -70,7 +88,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: white;
+  background: $dark-grey;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -134,11 +152,6 @@
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
-
-#top
-{
-    background: white;
 }
 
 #checkbox
