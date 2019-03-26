@@ -222,6 +222,7 @@ footer ul li:nth-child(3){
 #contactIMG {
     width: 100%;
     margin-top: 1.5em;
+    display: none;
 }
 
 #contact form, p {
@@ -345,6 +346,10 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 480px) and (max-width: 768px) {
+
+    #nav {
+        margin-left: 2em;
+    }
 
     .noWeb
     {
@@ -493,6 +498,7 @@ footer ul li:nth-child(3){
 #contactIMG {
     width: 100%;
     margin-top: 1.5em;
+    display: block;
 }
 
 #contact form input, textarea {
@@ -612,6 +618,10 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 769px) {
+
+    #nav {
+        margin-left: 2em;
+    }
 
 .noWeb
 {
@@ -772,6 +782,7 @@ footer ul li {
 #contactIMG {
     width: 49%;
     float: right;
+    display: block;
 }
 
 #contact {
