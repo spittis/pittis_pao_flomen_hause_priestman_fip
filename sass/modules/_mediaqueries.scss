@@ -5,6 +5,15 @@
 
 @media (max-width: 479px) {
 
+    .forWeb
+    {
+        display:none;
+    }
+
+    .testimonial:hover .donorOverlay {
+        opacity: 0;
+      }
+
     // VIDEO
     #video video {
         width: 100%;
@@ -441,20 +450,20 @@ footer ul li:nth-child(3){
 
 }
 
-.newsText {
+footer .newsText {
     float:none;
     text-align: center;
-    display: inline-block;
+    display: inline;
     padding-top:20px;
     padding-bottom:20px;
     top:50%;
 }
 
-.newsForm {
+footer .newsForm {
     float: none;
-    display: inline-block;
-    padding: 55px;
+    display: inline;
 }
+
 
 
 //MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE
@@ -477,6 +486,11 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 480px) and (max-width: 768px) {
+
+    .forWeb
+    {
+        display:none;
+    }
 
     /*VIDEO*/
 
@@ -654,6 +668,18 @@ footer ul li {
 footer ul li:nth-child(3){
     margin-top: 2em;
 }
+
+footer .newsForm {
+    float: none;
+}
+
+footer .newsForm form input, textarea {
+    border: 0.2em $blue solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-size: 0.5em;
+}
+
 
 //CONTACT
 #contactSection {
@@ -834,6 +860,24 @@ footer ul li:nth-child(3){
     text-align: center;
 }
 
+footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    top:50%;
+    margin-left: 5%;
+}
+
+footer .newsForm {
+    float: right;
+    margin-top:5%;
+    margin-right: 5%;
+}
+
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
 
 
 }
@@ -854,6 +898,11 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 769px) {
+
+    .forMob
+    {
+        display:none;
+    }
 
     #nav {
         margin-left: 2em;
@@ -1123,7 +1172,6 @@ footer ul li {
 #video video
 {
     width: 50%;
-    margin-top: 5%;
     float: left;
 }
 
@@ -1268,6 +1316,20 @@ footer ul
 }
 
 
+footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    top:50%;
+    margin-left: 5%;
+}
+
+footer .newsForm {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
 
 
 //desktop for organs in need
@@ -1305,8 +1367,38 @@ footer ul
 }
 
 
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
+
+  #blueback
+  {
+      width:100%;
+  }
+
+  #video
+  {
+      padding: 0;
+      margin: 0;
+  }
 
 
+  #blue
+  {
+      position: absolute;
+      margin-left:50%;
+  }
+
+  #bluetext{
+      position: relative;
+      color: white;
+      font-family: $headers;
+      padding-top: 1%;
+      font-size: 1em;
+      top: 5%;
+      left:5%;
+      width:90%;
+  }
 }
 
 //DESKTOP
