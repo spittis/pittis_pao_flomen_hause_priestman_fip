@@ -419,7 +419,7 @@ footer ul li:nth-child(3){
     font-size: 6em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-bottom: 0;
 }
 
@@ -778,7 +778,7 @@ footer ul li:nth-child(3){
 #donorCount
 {
     width: 100%;
-    float: left;
+    // float: left;
 }
 
 #donorCount h3
@@ -787,6 +787,7 @@ footer ul li:nth-child(3){
     font-family: $headers;
     font-weight: bold;
     font-size: 2em;
+    text-align: center;
     margin-bottom: 10px;
     width: 80%;
 
@@ -794,6 +795,7 @@ footer ul li:nth-child(3){
 
 #donorCount p
 {
+    padding-left: 11%;
     font-family: $body;
     font-size: 1em;
     width: 80%;
@@ -808,7 +810,7 @@ footer ul li:nth-child(3){
     font-size: 8em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -15px;
     margin-bottom: 0;
 }
 
@@ -825,6 +827,11 @@ footer ul li:nth-child(3){
     height: 200px;
     font-family: $body;
     font-size: 0.7em;
+    margin-top: 0px;
+}
+
+#donorCount {
+    text-align: center;
 }
 
 
