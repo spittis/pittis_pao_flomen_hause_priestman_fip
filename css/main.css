@@ -1,11 +1,14 @@
-
 @media (max-width: 479px) {
+  #video img {
+    width: 100%;
+    height: auto; }
+
   /* LOGO */
   .noMob {
     display: none; }
 
   #logo {
-    width: 20%;
+    width: 50%;
     margin-left: 3%;
     margin-top: 8%;
     margin-bottom: 4%;
@@ -42,7 +45,7 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #393e46;
+    background: white;
     z-index: 1;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease; }
@@ -161,21 +164,25 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #event2 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #event3 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #events h1 {
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 20%; }
+
+  .event {
+    padding-left: 1em;
+    padding-right: 1em; }
 
   #join {
     clear: both;
@@ -220,6 +227,11 @@
     padding: 0;
     margin-top: 2px; } }
 @media (min-width: 480px) and (max-width: 768px) {
+  /*VIDEO*/
+  #video img {
+    width: 100%;
+    height: auto; }
+
   #nav {
     margin-left: 2em; }
 
@@ -228,7 +240,7 @@
 
   /* LOGO */
   #logo {
-    width: 10%;
+    width: 25%;
     margin-top: 2%;
     margin-left: 4%;
     float: left;
@@ -333,15 +345,15 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 100%;
+    width: 98%;
     float: left; }
 
   #event2 {
-    width: 100%;
+    width: 98;
     float: left; }
 
   #event3 {
-    width: 100%;
+    width: 98%;
     float: left; }
 
   #events h1 {
@@ -518,10 +530,6 @@
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%; }
-
-    .event {
-      padding: 1em;
-    }
 
   #join {
     clear: both;
@@ -704,9 +712,9 @@ footer ul li a {
   color: #28adb3; }
 
 #event1 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 #event2 img {
@@ -721,9 +729,9 @@ footer ul li a {
   color: #28adb3; }
 
 #event2 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 #event3 img {
@@ -738,9 +746,9 @@ footer ul li a {
   color: #28adb3; }
 
 #event3 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 .edate {
@@ -749,7 +757,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold; }
 
 .location {
@@ -758,7 +766,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold; }
 
 .elocation {
@@ -769,6 +777,9 @@ footer ul li a {
   font-family: "Roboto", sans-serif;
   color: #28adb3;
   text-align: center; }
+
+.event {
+  padding-left: 1em; }
 
 #contact {
   clear: both;
@@ -3299,4 +3310,3 @@ footer {
   font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
-

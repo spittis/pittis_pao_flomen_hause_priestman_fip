@@ -5,6 +5,13 @@
 
 @media (max-width: 479px) {
 
+    // VIDEO
+    #video img {
+        width: 100%;
+        height: auto;
+    }
+
+
     /* LOGO */
 
 .noMob
@@ -234,19 +241,19 @@ footer ul li:nth-child(3){
 
 #event1
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event2
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event3
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
@@ -255,6 +262,12 @@ footer ul li:nth-child(3){
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 20%;
+}
+
+.event {
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
 //JOIN
@@ -346,6 +359,13 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 480px) and (max-width: 768px) {
+
+    /*VIDEO*/
+
+    #video img {
+        width: 100%;
+        height: auto;
+    }
 
     #nav {
         margin-left: 2em;
@@ -513,19 +533,19 @@ footer ul li:nth-child(3){
 
 #event1
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event2
 {
-    width: 100%;
+    width: 98;
     float: left;
 }
 
 #event3
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
@@ -807,19 +827,19 @@ footer ul li {
 
 #event1
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event2
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event3
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
