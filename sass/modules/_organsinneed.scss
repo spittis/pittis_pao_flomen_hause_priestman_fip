@@ -13,6 +13,14 @@
 #organsinneed img
 {
     margin: 0 auto;
+    transition: all .2s ease-in-out;
+}
+
+#organsinneed img:hover
+{
+    filter: drop-shadow( 1px 1px 5px white);
+    transform: scale(1.1);
+
 }
 
 #organsinneed div
