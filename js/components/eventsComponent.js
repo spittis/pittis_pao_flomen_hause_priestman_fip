@@ -4,7 +4,7 @@ export default {
 
     <h1>UPCOMING EVENTS</h1>
 
-    <div id="event1">
+    <div id="event1" class="event">
         <img src="images/Events_One.jpg">
         <h3>Donor Wanted: A Panel Discussion</h3>
         <p>How do you start a conversation about the need for a living organ donor? What are the benefits and risks of using social media and other public platforms? Are there ethical guidelines or recommended practices to guide patients and families?</p>
@@ -13,7 +13,7 @@ export default {
             <div class="edate">Friday, March 29</div>
         </div>
     </div>
-    <div id="event2">
+    <div id="event2" class="event">
             <img src="images/Events_Two.jpg">
             <h3>Pathways to Liver Transplantation</h3>
             <p>Are you considering a liver transplant? Do you have questions about living donor assessment or life after transplant? Would you like to connect with others on the same journey? Join UHN’s liver transplant team for this interactive seminar.</p>
@@ -22,7 +22,7 @@ export default {
                     <div class="edate">Tuesday, March 5</div>
             </div>
     </div>
-    <div id="event3">
+    <div id="event3" class="event">
             <img src="images/Events_Three.jpg">
             <h3>The Annual Kidney Walk and Run 2019</h3>
             <p>Every year, some 15,000 volunteers and participants gather at Kidney Walks in communities throughout the country to raise awareness and funds for those in need of kidney transplants. So, grab your runners and come and join us on this day!</p>
