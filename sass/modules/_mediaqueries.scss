@@ -16,6 +16,16 @@
     position: fixed;
 }
 
+#emailUs
+{
+    display: none;
+}
+
+#callUs
+{
+    display: none;
+}
+
 
     /* MENU TOGGLE -- all nav styling is here */
 
@@ -342,6 +352,16 @@ footer ul li:nth-child(3){
        // position: relative;
         float: left;
         z-index: 1;
+}
+
+#emailUs
+{
+    display: none;
+}
+
+#callUs
+{
+    display: none;
 }
 
 
