@@ -11,6 +11,7 @@ import profilesComponent from './components/profilesComponent.js';
 import footerComponent from './components/footerComponent.js';
 import eventsComponent from './components/eventsComponent.js';
 import contactComponent from './components/contactComponent.js';
+import organsinneedComponent from './components/organsinneedComponent.js';
 
 
 const routes = [
@@ -38,6 +39,7 @@ const vm = new Vue ({
         footerComponent: footerComponent.template,
         eventsComponent: eventsComponent.template,
         contactComponent: contactComponent.template,
+        organsinneedComponent: organsinneedComponent.template,
     },
 
     router: router

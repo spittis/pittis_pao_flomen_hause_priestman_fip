@@ -16,6 +16,16 @@
     position: fixed;
 }
 
+#emailUs
+{
+    display: none;
+}
+
+#callUs
+{
+    display: none;
+}
+
 
     /* MENU TOGGLE -- all nav styling is here */
 
@@ -270,6 +280,41 @@ footer ul li:nth-child(3){
 }
 
 
+//mobile for organs in need
+
+
+#organsinneed h2
+{
+    padding: 20px;
+    font-size: 2.4em;
+}
+
+#organsinneed img
+{
+    width: 60%;
+    padding: 20%;
+}
+
+#organsinneed div
+{
+    width: 49%;
+    text-align: center;
+}
+
+#organsinneed div h3
+{
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+
+#organsinneed h4
+{
+   padding: 0;
+   margin-top: 2px;
+}
+
+
 
 
 }
@@ -307,6 +352,16 @@ footer ul li:nth-child(3){
        // position: relative;
         float: left;
         z-index: 1;
+}
+
+#emailUs
+{
+    display: none;
+}
+
+#callUs
+{
+    display: none;
 }
 
 
@@ -491,6 +546,42 @@ footer ul li:nth-child(3){
     width: 75%;
     margin-left: 12.5%;
 }
+
+//tablet for organs in need
+
+
+
+#organsinneed h2
+{
+    padding: 20px;
+    font-size: 2.4em;
+}
+
+#organsinneed img
+{
+    width: 60%;
+    padding: 20%;
+}
+
+#organsinneed div
+{
+    width: 32%;
+    text-align: center;
+}
+
+#organsinneed div h3
+{
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+
+#organsinneed h4
+{
+   padding: 0;
+   margin-top: 2px;
+}
+
 
 
 }
@@ -891,6 +982,46 @@ footer ul
 {
     margin-bottom: 0px;
 }
+
+
+
+
+//desktop for organs in need
+
+
+
+#organsinneed h2
+{
+    padding: 20px;
+    font-size: 2.4em;
+}
+
+#organsinneed img
+{
+    width: 60%;
+    padding: 20%;
+}
+
+#organsinneed div
+{
+    width: 16%;
+}
+
+#organsinneed div h3
+{
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+}
+
+#organsinneed h4
+{
+   padding: 0;
+   margin-top: 2px;
+}
+
+
+
 
 }
 
