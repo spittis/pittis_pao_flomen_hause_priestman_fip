@@ -5,8 +5,9 @@ Organ Donation Camapign
 
       
 
-We are the producers of the Organ Donation Campaign, Create The Connection. We are based in London, Ontario, Canada. 
+Only 1 in every 4 Ontarians is a registered organ donor, nevertheless, a new name is added to the waiting list every 10 minutes.  We, the producers of the Organ Donation Campaign, Create The Connection, have decided to make a differencee.  Our London, Ontario based team of five has collaborated to create a campaign all with the intentions of diminishing the discrepancy between the numbers of organ donors and recipients.  Through efforts demonstrated by print ads, video campaigns, social media marketing, web design, and branding, our team has worked to create a campaign guaranteed to benefit the growing organ donation concern in Ontario.  Within our site, we included information as well as various stories and testimonials through an interactive design ultimately to educate users on the topic and to influence them to register as well.  
 
+Help connect Ontario today by taking the short two minutes to register at www.beadonor.ca.
 
 ## Getting Started
 
@@ -35,7 +36,7 @@ Open the index.html in a browser of your choosing. Chrome works best.
 
 ## Authors
 
-* **Jaclyn flomen** - *Project Manager* - [jaclynflomen](https://github.com/jaclynflomen)
+* **Jaclyn Flomen** - *Project Manager* - [jaclynflomen](https://github.com/jaclynflomen)
 
 * **Allison Pao** - *Motion Designer* - [apao4](https://github.com/apao4)
 
@@ -53,6 +54,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* We were inspired by: [Organ Donation Ontario](https://beadonor.ca)
+* Inspiration: [Organ Donation Ontario](https://beadonor.ca)
 * [Organ Donor](https://www.organdonor.gov/)
 * [The Organ Project](http://www.theorganproject.net/)
