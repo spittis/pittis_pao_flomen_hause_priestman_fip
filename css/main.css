@@ -292,7 +292,7 @@
     font-size: 6em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-bottom: 0; }
 
   #waitList {
@@ -521,18 +521,19 @@
     margin-top: 2px; }
 
   #donorCount {
-    width: 100%;
-    float: left; }
+    width: 100%; }
 
   #donorCount h3 {
     padding-left: 11%;
     font-family: "Oswald", sans-serif;
     font-weight: bold;
     font-size: 2em;
+    text-align: center;
     margin-bottom: 10px;
     width: 80%; }
 
   #donorCount p {
+    padding-left: 11%;
     font-family: "Roboto", sans-serif;
     font-size: 1em;
     width: 80%; }
@@ -545,7 +546,7 @@
     font-size: 8em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -15px;
     margin-bottom: 0; }
 
   #waitList {
@@ -557,7 +558,11 @@
   #waitCount {
     height: 200px;
     font-family: "Roboto", sans-serif;
-    font-size: 0.7em; } }
+    font-size: 0.7em;
+    margin-top: 0px; }
+
+  #donorCount {
+    text-align: center; } }
 @media (min-width: 769px) {
   #nav {
     margin-left: 2em; }
