@@ -3,7 +3,11 @@
   .noMob {
     display: none;
   }
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
   #logo {
     width: 50%;
     margin-left: 3%;
@@ -183,8 +187,13 @@
   #contactIMG {
     width: 100%;
     margin-top: 1.5em;
+<<<<<<< HEAD
     display: none;
   }
+=======
+    display: none; }
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
 
   #contact form, p {
     margin-left: 4.5em;
@@ -265,13 +274,22 @@
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
   #nav {
     margin-left: 2em;
   }
 
   .noWeb {
+<<<<<<< HEAD
     display: none;
   }
+=======
+    display: none; }
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
 
   /* LOGO */
   #logo {
@@ -390,8 +408,13 @@
   #contactIMG {
     width: 100%;
     margin-top: 1.5em;
+<<<<<<< HEAD
     display: block;
   }
+=======
+    display: block; }
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
 
   #contact form input, textarea {
     width: 35em;
@@ -475,13 +498,22 @@
   }
 }
 @media (min-width: 769px) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
   #nav {
     margin-left: 2em;
   }
 
   .noWeb {
+<<<<<<< HEAD
     display: none;
   }
+=======
+    display: none; }
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
 
   /* LOGO */
   #logo {
@@ -587,8 +619,13 @@
   #contactIMG {
     width: 49%;
     float: right;
+<<<<<<< HEAD
     display: block;
   }
+=======
+    display: block; }
+
+>>>>>>> 8264b55958abd189cac39bea86d10523f823700b
 
   #contact {
     float: left;
