@@ -48,3 +48,24 @@ function deleteAdmin($ID){
 		return $error;
 	}
 }
+
+function editAdmin($ID,$user,$fname,$lname,$email,$userLevel,$pass){
+	include('connect.php');
+
+	$edit_admin_query = 'UPDATE us01_users set user=:user, fname=:fname, lname=:lname, email=:email, userLevel=:userLevel, pass=:pass WHERE ID=:ID';
+
+	$edit_admin_set = $pdo->prepare($edit_admin_query);
+	$edit_admin_set->execute(
+		array(    
+            ':user'=>$user,
+            ':fname'=>$fname,
+            ':lname'=>$lname,
+            ':email'=>$email,
+            ':userLevel'=>$userLevel,
+            ':pass'=>$pass,
+            ':ID'=>$ID
+		)
+	);
+
+	redirect_to('admin.php');   
+}
