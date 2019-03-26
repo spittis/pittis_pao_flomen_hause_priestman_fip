@@ -2,7 +2,7 @@ export default {
     template: `
     <div id="vidLearn">
     <div id="video">
-        <img src="images/Video_Template.jpg">
+        <video src="images/organdance.mp4" controls></video>
     </div>
     <div id="learnMore">
         <h1>LEARN MORE</h1>
