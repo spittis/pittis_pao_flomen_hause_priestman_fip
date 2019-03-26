@@ -5,19 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create The Connection</title>
+    <title>Ontario Connect</title>
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> <!--VUE-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!--AJAX-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
+     <!-- Vue -->
+     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+     <script src="https://unpkg.com/vue"></script>
+     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+ 
+ 
      <!--Waypoint-->
-     <script src="js/noframework.waypoints.min.js"></script>
-     <script src="js/mywaypoint.js"></script>
+     <!-- <script src="js/noframework.waypoints.min.js"></script>
+     <script src="js/mywaypoint.js"></script> -->
+
+     <!-- Vue -->
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 
 </head>
 <body>
     
+<<<<<<< HEAD:index.php
     <main id="app">
 
     <img id="logo" src="images/Logo_Icon.svg">
@@ -178,25 +189,36 @@
 
 
 
+=======
+<main id="app">
+
+<!-- COMPONENTS BELOW -->
+<span v-html="navComponent"></span>
+<span v-html="headerComponent"></span>
+<span v-html="waitComponent"></span>
+<span v-html="videoComponent"></span>
+<span v-html="donorsComponent"></span>
+<span v-html="profilesComponent"></span>
+<span v-html="eventsComponent"></span>
+<span v-html="contactComponent"></span>
+<span v-html="footerComponent"></span>
+
+<!-- ROUTER TRANSITION -->
+>>>>>>> 0e46c2b904d05d7343b06e4d190bbf5466de6662:index.html
     <transition name="fade" mode="out-in">
         <router-view id="move"></router-view>
-    </transition>
-
+    </transition> -->
 
 
 
 </main>
 
-
-
-
-   
 <!-- JS below -->
-<script src="js/videocontrols.js"></script> 
-<script src="js/gulpfile.js"></script>
-<script src="js/main.js"></script>
-<script src="js/master.js"></script>
-<script src="js/scrolltotop.js"></script>
+<!-- <script src="js/videocontrols.js"></script>  -->
+<script src="gulpfile.js"></script>
+<script type="module" src="js/main.js"></script>
+<!-- <script src="js/master.js"></script>
+<script src="js/scrolltotop.js"></script> -->
     
 </body>
 </html>

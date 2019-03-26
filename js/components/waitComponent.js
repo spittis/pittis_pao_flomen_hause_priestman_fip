@@ -2,7 +2,14 @@ export default {
 
     template: `
     <div>
-
+    <div id="waitCount">
+    <div id="donorCount">
+        <h3>Become a Donor, Save a Life</h3>
+        <p>You can save up to 8 peoples lives by becoming a donor. Every three days someone dies in Ontario because the life-saving organ transplant they need is not available, it's often a matter of life and death.</p>
+    </div>
+    <p id="number">4,500</p>
+    <p id="waitList">Waiting on a list for transplant</p>
+</div>
     </div>
     `,
 

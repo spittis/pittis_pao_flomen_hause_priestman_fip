@@ -1,7 +1,7 @@
 export default {
     template: `
 <div id="promo">
-
+    <h1>hi</h1>
 </div>
     `,
 

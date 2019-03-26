@@ -13,8 +13,6 @@ $dsn = 'mysql:'.http_build_query($db_dsn, '', ';');
 $db_user = 'root';
 $db_pass = 'root';
 
-$pdo = new PDO($dsn, $db_user, $db_pass);
-
 /* check connection */
 try {
     $pdo = new PDO($dsn, $db_user, $db_pass);
