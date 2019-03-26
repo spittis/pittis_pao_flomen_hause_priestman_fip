@@ -5,11 +5,13 @@ export default {
     
     <div class="forMob" id="vidLearn">
     <div id="video">
-        <video controls>
-        <source src="images/organdance.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        
-        </video>
+    <video controls>
+    <source src="images/info.mp4" type="video/mp4">
+    <source src="images/info.ogg" type="video/ogg">
+    <source src="images/info.webm" type="video/webm">
+  Your browser does not support the video tag.
+    </video>
+</div>
     </div>
 
     <div id="learnMore">
