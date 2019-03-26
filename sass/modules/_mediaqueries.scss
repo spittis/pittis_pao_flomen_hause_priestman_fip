@@ -254,19 +254,19 @@ footer ul li:nth-child(3){
 
 #event1
 {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
 #event2
 {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
 #event3
 {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
@@ -277,11 +277,11 @@ footer ul li:nth-child(3){
     margin-top: 20%;
 }
 
-.event {
-    padding-left: 1em;
-    padding-right: 1em;
+// .event {
+//     padding-left: 1em;
+//     padding-right: 1em;
 
-}
+// }
 
 //JOIN
 #join
@@ -588,27 +588,27 @@ footer ul li:nth-child(3){
     width: 35em;
 }
 
-#contact form, p {
-    margin-left: 5em;
-}
+// #contact form, p {
+//     margin-left: 5em;
+// }
 
 /* EVENTS SECTION */
 
 #event1
 {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
 #event2
 {
-    width: 98;
+    width: 100%;
     float: left;
 }
 
 #event3
 {
-    width: 98%;
+    width: 100%;
     float: left;
 }
 
@@ -965,6 +965,16 @@ footer ul li {
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%;
+}
+
+
+#events {
+    margin-left: 5%;
+}
+
+#events .event {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 //JOIN
