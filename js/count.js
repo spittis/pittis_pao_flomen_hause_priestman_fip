@@ -13,6 +13,13 @@ var waypoint = new Waypoint({
             } else {
               console.error(solarSystem.error);
             }
-      },
-      offset: "50%"
+      }
+    //   offset: "50%"
   })
+
+ 
+
+
+
+
+  

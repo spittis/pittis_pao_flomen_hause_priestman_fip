@@ -27,3 +27,24 @@ function createAdmin($user,$fname,$lname,$email,$userLevel,$pass){
 		}
 
 }
+
+function deleteAdmin($ID){
+	include('connect.php');
+
+	$queryAll='DELETE FROM us01_users WHERE ID = :id';
+
+	$runFilter = $pdo ->prepare($queryAll);
+
+	$runFilter->execute(
+		array(
+			':id'=>$ID 
+		)
+	);
+
+	if($runFilter){
+		redirect_to('../admin.php');
+	}else{
+		$error = 'There is problem in Filter';
+		return $error;
+	}
+}

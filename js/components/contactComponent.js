@@ -1,7 +1,7 @@
 export default {
     template: `
 
-<div>
+<div id="contactSection">
     <div id="contact">
     <h1>Get In Touch</h1>
     <p>Want to learn more about the ways you can help save someone's life? Ask away! We would love to help inform you more on the topic!

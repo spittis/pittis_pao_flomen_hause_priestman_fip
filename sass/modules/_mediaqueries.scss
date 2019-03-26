@@ -6,11 +6,41 @@
 @media (max-width: 479px) {
 
     // VIDEO
-    #video img {
+    #video video {
         width: 100%;
         height: auto;
     }
 
+    #vidLearn
+{
+    width: 100%;
+    background-color: black;
+}
+
+#learnMore
+{
+    width: 100%;
+    float: left;
+    background: $blue;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+}
+
+#learnMore h1
+{
+    text-align: center;
+    font-family: $headers;
+    font-size: 2em;
+}
+
+#learnMore ul li
+{
+    font-family: $body;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
 
     /* LOGO */
 
@@ -218,6 +248,11 @@ footer ul li:nth-child(3){
 }
 
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 2.5%;
+}
+
 #contact h1 {
     margin-left: 2.24em;
     width: 100%;
@@ -251,6 +286,11 @@ footer ul li:nth-child(3){
 
 
 /* EVENTS SECTION */
+
+#upcoming {
+    clear: both;
+    padding-top: 2em;
+}
 
 #event1
 {
@@ -379,7 +419,7 @@ footer ul li:nth-child(3){
     font-size: 6em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-bottom: 0;
 }
 
@@ -440,10 +480,36 @@ footer ul li:nth-child(3){
 
     /*VIDEO*/
 
-    #video img {
+    #video video {
         width: 100%;
         height: auto;
     }
+
+
+#learnMore
+{
+    width: 100%;
+    float: left;
+    background: $blue;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+}
+
+#learnMore h1
+{
+    text-align: center;
+    font-family: $headers;
+    font-size: 2em;
+}
+
+#learnMore ul li
+{
+    font-family: $body;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
 
     #nav {
         margin-left: 2em;
@@ -454,6 +520,11 @@ footer ul li:nth-child(3){
         display: none;
     }
 
+    #vidLearn
+{
+    width: 100%;
+    background-color: black;
+}
 
     /* LOGO */
 
@@ -585,12 +656,17 @@ footer ul li:nth-child(3){
 }
 
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 2%;
+}
+
 #contact h1, p {
     width: 100%;
 }
 
 #contact {
-    margin-left: 5em;
+    margin-left: 25%;
     width: 100%;
 }
 
@@ -702,7 +778,7 @@ footer ul li:nth-child(3){
 #donorCount
 {
     width: 100%;
-    float: left;
+    // float: left;
 }
 
 #donorCount h3
@@ -711,6 +787,7 @@ footer ul li:nth-child(3){
     font-family: $headers;
     font-weight: bold;
     font-size: 2em;
+    text-align: center;
     margin-bottom: 10px;
     width: 80%;
 
@@ -718,6 +795,7 @@ footer ul li:nth-child(3){
 
 #donorCount p
 {
+    padding-left: 11%;
     font-family: $body;
     font-size: 1em;
     width: 80%;
@@ -732,7 +810,7 @@ footer ul li:nth-child(3){
     font-size: 8em;
     font-weight: bold;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: -15px;
     margin-bottom: 0;
 }
 
@@ -749,6 +827,11 @@ footer ul li:nth-child(3){
     height: 200px;
     font-family: $body;
     font-size: 0.7em;
+    margin-top: 0px;
+}
+
+#donorCount {
+    text-align: center;
 }
 
 
@@ -932,6 +1015,11 @@ footer ul li {
 
 
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 5%;
+}
+
 #contactIMG {
     width: 49%;
     float: right;
@@ -985,7 +1073,8 @@ footer ul li {
 
 
 #events {
-    margin-left: 5%;
+    clear: both;
+    margin-left: 2.5%;
 }
 
 #events .event {
@@ -1028,11 +1117,13 @@ footer ul li {
 #vidLearn
 {
     width: 100%;
+    background-color: black;
 }
 
-#video img
+#video video
 {
     width: 50%;
+    margin-top: 5%;
     float: left;
 }
 
@@ -1042,20 +1133,21 @@ footer ul li {
     float: left;
     background: $blue;
     color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
 }
 
 #learnMore h1
 {
-    margin-top: 15%;
     text-align: center;
     font-family: $headers;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 #learnMore ul li
 {
     font-family: $body;
-    padding: 2%;
+    padding: 1%;
     margin-left: 7%;
     margin-right: 7%;
 }
