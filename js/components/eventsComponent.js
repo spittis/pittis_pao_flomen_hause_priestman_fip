@@ -2,7 +2,7 @@ export default {
     template: `
     <div id="events">
 
-    <h1>UPCOMING EVENTS</h1>
+    <h1 id="upcoming">UPCOMING EVENTS</h1>
 
     <div id="event1" class="event">
         <img src="images/Events_One.jpg">
