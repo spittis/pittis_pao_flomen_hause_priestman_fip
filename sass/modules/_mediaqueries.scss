@@ -5,6 +5,15 @@
 
 @media (max-width: 479px) {
 
+    .forWeb
+    {
+        display:none;
+    }
+
+    .testimonial:hover .donorOverlay {
+        opacity: 0;
+      }
+
     // VIDEO
     #video video {
         width: 100%;
@@ -478,6 +487,11 @@ footer .newsForm {
 
 @media (min-width: 480px) and (max-width: 768px) {
 
+    .forWeb
+    {
+        display:none;
+    }
+
     /*VIDEO*/
 
     #video video {
@@ -861,6 +875,9 @@ footer .newsForm {
     margin-right: 5%;
 }
 
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
 
 
 }
@@ -881,6 +898,11 @@ footer .newsForm {
 //HERE
 
 @media (min-width: 769px) {
+
+    .forMob
+    {
+        display:none;
+    }
 
     #nav {
         margin-left: 2em;
@@ -1150,7 +1172,6 @@ footer ul li {
 #video video
 {
     width: 50%;
-    margin-top: 5%;
     float: left;
 }
 
@@ -1346,8 +1367,38 @@ footer .newsForm {
 }
 
 
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
+
+  #blueback
+  {
+      width:100%;
+  }
+
+  #video
+  {
+      padding: 0;
+      margin: 0;
+  }
 
 
+  #blue
+  {
+      position: absolute;
+      margin-left:50%;
+  }
+
+  #bluetext{
+      position: relative;
+      color: white;
+      font-family: $headers;
+      padding-top: 1%;
+      font-size: 1em;
+      top: 5%;
+      left:5%;
+      width:90%;
+  }
 }
 
 //DESKTOP
