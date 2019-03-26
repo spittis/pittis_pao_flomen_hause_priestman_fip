@@ -179,6 +179,10 @@
     margin-top: 2em;
   }
 
+  #contactSection {
+    clear: both;
+    padding-top: 2.5%; }
+
   #contact h1 {
     margin-left: 2.24em;
     width: 100%;
@@ -464,6 +468,10 @@
     margin-top: 2em;
   }
 
+  #contactSection {
+    clear: both;
+    padding-top: 2%; }
+
   #contact h1, p {
     width: 100%;
   }
@@ -710,6 +718,10 @@
     margin-left: 3em;
     margin-right: 3em;
   }
+
+  #contactSection {
+    clear: both;
+    padding-top: 5%; }
 
   #contactIMG {
     width: 49%;
