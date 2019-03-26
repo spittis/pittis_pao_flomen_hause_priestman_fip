@@ -2,7 +2,11 @@ export default {
     template: `
 <div>
     <div id="header">
-        <img id="heads" src="images/HeroImage.jpg" alt="header of faces" title="faces">
+        <img id="heads" class="noMob" src="images/HeroImage.jpg" alt="header of faces" title="faces">
+    </div>
+
+    <div id="header">
+    <img id="heads" class="noWeb" src="images/Mobile_Hero.jpg" alt="header of faces" title="faces">
     </div>
 </div>
     `,
