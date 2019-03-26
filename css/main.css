@@ -211,17 +211,17 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 98%;
+    width: 100%;
     float: left;
   }
 
   #event2 {
-    width: 98%;
+    width: 100%;
     float: left;
   }
 
   #event3 {
-    width: 98%;
+    width: 100%;
     float: left;
   }
 
@@ -229,11 +229,6 @@
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 20%;
-  }
-
-  .event {
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   #join {
@@ -333,6 +328,21 @@
     font-size: 0.7em;
   }
 }
+.newsText {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 50%;
+}
+
+.newsForm {
+  float: none;
+  display: inline-block;
+  padding: 55px;
+}
+
 @media (min-width: 480px) and (max-width: 768px) {
   /*VIDEO*/
   #video img {
@@ -473,23 +483,19 @@
     width: 35em;
   }
 
-  #contact form, p {
-    margin-left: 5em;
-  }
-
   /* EVENTS SECTION */
   #event1 {
-    width: 98%;
+    width: 100%;
     float: left;
   }
 
   #event2 {
-    width: 98;
+    width: 100%;
     float: left;
   }
 
   #event3 {
-    width: 98%;
+    width: 100%;
     float: left;
   }
 
@@ -751,9 +757,19 @@
     margin-top: 45%;
   }
 
+  #events {
+    margin-left: 5%;
+  }
+
+  #events .event {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
   #join {
     clear: both;
     width: 100%;
+    margin-bottom: -6px;
   }
 
   #join img {
@@ -936,22 +952,105 @@
 
 footer {
   clear: both;
+  background-color: #f4b22a;
+  color: white;
+  text-align: center;
+}
+footer #submit {
+  background-color: #393e46;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 7.5em;
+  margin-bottom: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+footer #submit:hover {
+  background-color: white;
+  color: #393e46;
+  border: 2px solid #393e46;
+}
+
+.newsText {
+  float: left;
+  text-align: left;
+  margin-left: 200px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 50%;
+}
+.newsText h4 {
+  color: #393e46;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.newsText h5 {
+  color: white;
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsForm {
+  float: right;
+  display: inline-block;
+  margin-right: 200px;
+  padding: 55px;
+}
+
+.newsForm form input, textarea {
+  border: 0.2em #28adb3 solid;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 0.5em;
+  margin-top: 0.5em;
+}
+
+.newsForm form input {
+  height: 3em;
+  padding-top: 1.5em;
+}
+
+.newsForm form textarea {
+  height: 20px;
+}
+
+.newsForm ::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #28adb3;
+}
+
+.newsForm h1 {
+  color: #28adb3;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding: 20px;
+  clear: both;
   background-color: #393e46;
   color: white;
 }
 
-footer ul {
+.footer ul {
   list-style: none;
   padding: 1em;
   text-align: center;
 }
 
-footer ul li {
+.footer ul li {
   font-weight: bold;
   display: inline-block;
 }
 
-footer ul li a {
+.footer ul li a {
   font-weight: normal;
   display: block;
 }
@@ -972,8 +1071,9 @@ footer ul li a {
 #event1 p {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 #event2 img {
@@ -992,8 +1092,9 @@ footer ul li a {
 #event2 p {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 #event3 img {
@@ -1012,8 +1113,9 @@ footer ul li a {
 #event3 p {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 .edate {
@@ -1037,18 +1139,16 @@ footer ul li a {
 }
 
 .elocation {
+  clear: both;
   width: 100%;
   padding-bottom: 20%;
+  margin-left: 3%;
 }
 
 #events h1 {
   font-family: "Roboto", sans-serif;
   color: #28adb3;
   text-align: center;
-}
-
-.event {
-  padding-left: 1em;
 }
 
 #contact {
@@ -1094,6 +1194,14 @@ footer ul li a {
   font-size: 1em;
   width: 7.5em;
   margin-bottom: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#submit:hover {
+  background-color: white;
+  color: #ec424c;
+  border: 2px solid #ec424c;
 }
 
 @-webkit-keyframes bounce {
@@ -4163,6 +4271,74 @@ footer ul li a {
   color: white;
   text-align: center;
   font-family: "Oswald", sans-serif;
+}
+
+.testimonial {
+  position: relative;
+  width: 25%;
+  float: left;
+  display: block;
+}
+
+.donorImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.donorOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #28adb3;
+}
+
+.testimonial:hover .donorOverlay {
+  opacity: 1;
+}
+
+.donorTest {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donorName {
+  color: #393e46;
+  font-size: 17px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.donorOrgan {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 20%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .hidden {

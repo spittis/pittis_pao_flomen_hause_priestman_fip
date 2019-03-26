@@ -3,4 +3,5 @@
 	// require_once('sign-up.php');
 	require_once('sessions.php');
 	require_once('functions.php');
+	require_once('user.php');
 ?>

@@ -17,8 +17,9 @@
 {
     font-family: $body;
     text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-bottom: 10%;
 }
 
 #event2 img
@@ -40,8 +41,9 @@
 {
     font-family: $body;
     text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-bottom: 10%;
 }
 
 #event3 img
@@ -63,8 +65,9 @@
 {
     font-family: $body;
     text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-bottom: 10%;
 }
 
 .edate
@@ -91,8 +94,10 @@
 
 .elocation
 {
+    clear: both;
     width: 100%;
     padding-bottom: 20%;
+    margin-left: 3%;
 }
 
 #events h1
@@ -101,7 +106,3 @@
     color: $blue;
     text-align: center;
 }
-
-.event {
-    padding-left: 1em;
-  }

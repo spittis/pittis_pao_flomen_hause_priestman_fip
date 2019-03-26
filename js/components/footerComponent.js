@@ -2,6 +2,21 @@ export default {
 
     template: `
     <footer>
+    <section class="newsletter">
+        <section class="newsText">
+        <h4>KEEP CONNECTED</h4>
+        <h5>SIGN UP FOR OUR<br>NEWSLETTER<h5>
+        </section>
+
+        <section class="newsForm">
+        <form>
+        <textarea id="newsForm" name="newsForm" placeholder="Email... " required></textarea>
+        <button type="submit" name="newsSubmit" id="submit" class="button">Submit</button>
+        </section>
+
+    </section>
+
+    <section class="footer">
     <ul>
         <li>CONTACT
             <a>How do I register?</a>
@@ -18,6 +33,7 @@ export default {
             <a>Sunnybrook Health Sciences Centre</a>
         </li>
     </ul>
+    </section>
 </footer>
     `,
 
