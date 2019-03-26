@@ -320,7 +320,57 @@ footer ul li:nth-child(3){
    margin-top: 2px;
 }
 
+#donorCount
+{
+    width: 100%;
+    float: left;
+}
 
+#donorCount h3
+{
+    padding-left: 11%;
+    font-family: $headers;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+#donorCount p
+{
+    font-family: $body;
+    font-size: 0.9em;
+    width: 80%;
+}
+
+#number
+{
+    width: 40%;
+    float: left;
+    color: $red;
+    font-family: $headers;
+    font-size: 6em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#waitList
+{
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+#waitCount
+{
+    height: 200px;
+    font-family: $body;
+    font-size: 0.7em;
+}
 
 
 }
@@ -346,6 +396,7 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 480px) and (max-width: 768px) {
+
 
     #nav {
         margin-left: 2em;
@@ -596,6 +647,60 @@ footer ul li:nth-child(3){
 {
    padding: 0;
    margin-top: 2px;
+}
+
+//donor count
+
+#donorCount
+{
+    width: 100%;
+    float: left;
+}
+
+#donorCount h3
+{
+    padding-left: 11%;
+    font-family: $headers;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+#donorCount p
+{
+    font-family: $body;
+    font-size: 1em;
+    width: 80%;
+}
+
+#number
+{
+    width: 40%;
+    float: left;
+    color: $red;
+    font-family: $headers;
+    font-size: 8em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#waitList
+{
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+#waitCount
+{
+    height: 200px;
+    font-family: $body;
+    font-size: 0.7em;
 }
 
 
@@ -954,6 +1059,8 @@ footer ul li {
 {
     margin-top:-17px;
 }
+
+//wait list area
 
 #donorCount
 {
