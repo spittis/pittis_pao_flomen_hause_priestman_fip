@@ -17,6 +17,7 @@
             <a href="editAdmin.php"><li>Edit Admin</li></a>
             <a href="createAdmin.php"><li>Create Admin</li></a>
             <a href="deleteAdmin.php"><li>Delete Admin</li></a>
+            <a href="adminUpdateInfo.php"><li>Update Info</li></a>
             <a href="cms.php"><li>Edit Site Content</li></a>
             <!-- <a href="admin/index.php"><li>Staff</li></a> -->
         </div>
