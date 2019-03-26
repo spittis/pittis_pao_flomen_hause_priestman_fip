@@ -6,8 +6,8 @@ export default {
 
     <div id="event1">
         <img src="images/Events_One.jpg">
-        <h3>Donor Wanted: A Panel Discussion on Public Appeals for Living Organ Donors</h3>
-        <p>How do you start a conversation about the need for a living organ donor? What are the benefits and risks of using social media and other public platforms? Are there ethical guidelines or recommended practices to guide patients and families? What is the role of the care team? Join us for an informative and interactive discussion on this timely topic.</p>
+        <h3>Donor Wanted: A Panel Discussion</h3>
+        <p>How do you start a conversation about the need for a living organ donor? What are the benefits and risks of using social media and other public platforms? Are there ethical guidelines or recommended practices to guide patients and families?</p>
         <div class="elocation">
             <div class="location">Toronto General Hospital</div>
             <div class="edate">Friday, March 29</div>
@@ -24,8 +24,8 @@ export default {
     </div>
     <div id="event3">
             <img src="images/Events_Three.jpg">
-            <h3>The Annual Kidney Walk</h3>
-            <p>Every year, some 15,000 volunteers and participants gather at Kidney Walks in communities throughout the country to raise awareness and funds for those in need of kidney transplants.</p>
+            <h3>The Annual Kidney Walk and Run 2019</h3>
+            <p>Every year, some 15,000 volunteers and participants gather at Kidney Walks in communities throughout the country to raise awareness and funds for those in need of kidney transplants. So, grab your runners and come and join us on this day!</p>
             <div class="elocation">
                     <div class="location">Yonge and Dundas Square</div>
                     <div class="edate">Tuesday, May 4</div>
