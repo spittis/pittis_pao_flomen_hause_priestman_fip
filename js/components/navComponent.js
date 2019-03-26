@@ -33,6 +33,7 @@ export default {
             <a href="index.html#events"><li>Events</li></a>
             <a href="index.html#profiles"><li>Testimonies</li></a>
             <a href="index.html#contact"><li>Contact</li></a>
+            <a href="admin/index.php"><li>Staff</li></a>
         </div>
 
         <div id="socialIcons">
