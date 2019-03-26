@@ -5,12 +5,37 @@
 
 @media (max-width: 479px) {
 
+    // VIDEO
+    #video img {
+        width: 100%;
+        height: auto;
+    }
+
+
     /* LOGO */
 
 .noMob
 {
     display: none;
 }
+
+#top {
+    padding-bottom: 15px;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+
+  #top.top-fixed {
+    background: rgba(255, 255, 255, 0.7); /*Nav colour*/
+    height: 100px;
+    transition: all 0.5s;
+  }
+
 
 #logo
 {
@@ -63,7 +88,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: white;
+  background: $dark-grey;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -127,11 +152,6 @@
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
-
-#top
-{
-    background: white;
 }
 
 #checkbox
@@ -234,19 +254,19 @@ footer ul li:nth-child(3){
 
 #event1
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event2
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event3
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
@@ -255,6 +275,12 @@ footer ul li:nth-child(3){
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 20%;
+}
+
+.event {
+    padding-left: 1em;
+    padding-right: 1em;
+
 }
 
 //JOIN
@@ -397,6 +423,12 @@ footer ul li:nth-child(3){
 
 @media (min-width: 480px) and (max-width: 768px) {
 
+    /*VIDEO*/
+
+    #video img {
+        width: 100%;
+        height: auto;
+    }
 
     #nav {
         margin-left: 2em;
@@ -564,19 +596,19 @@ footer ul li:nth-child(3){
 
 #event1
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
 #event2
 {
-    width: 100%;
+    width: 98;
     float: left;
 }
 
 #event3
 {
-    width: 100%;
+    width: 98%;
     float: left;
 }
 
@@ -912,19 +944,19 @@ footer ul li {
 
 #event1
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event2
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event3
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 

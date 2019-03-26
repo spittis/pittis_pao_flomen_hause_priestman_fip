@@ -47,3 +47,17 @@ const vm = new Vue ({
 }).$mount("#app");
 
 
+  // Header fixed and Back to top button
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.back-to-top').fadeIn('slow');
+      $('#top').addClass('top-fixed');
+    } else {
+      $('.back-to-top').fadeOut('slow');
+      $('#top').removeClass('top-fixed');
+    }
+  });
+  $('.back-to-top').click(function(){
+    $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    return false;
+  });

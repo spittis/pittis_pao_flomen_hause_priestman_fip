@@ -1,8 +1,28 @@
 @media (max-width: 479px) {
+  #video img {
+    width: 100%;
+    height: auto; }
+
   /* LOGO */
   .noMob {
     display: none;
   }
+
+  #top {
+    padding-bottom: 15px;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997; }
+
+  #top.top-fixed {
+    background: rgba(255, 255, 255, 0.7);
+    /*Nav colour*/
+    height: 100px;
+    transition: all 0.5s; }
 
   #logo {
     width: 50%;
@@ -192,15 +212,15 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #event2 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #event3 {
-    width: 90%;
+    width: 98%;
     float: left; }
 
   #events h1 {
@@ -208,6 +228,10 @@
     margin-bottom: 1em;
     margin-top: 20%;
   }
+
+  .event {
+    padding-left: 1em;
+    padding-right: 1em; }
 
   #join {
     clear: both;
@@ -307,6 +331,11 @@
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+  /*VIDEO*/
+  #video img {
+    width: 100%;
+    height: auto; }
+
   #nav {
     margin-left: 2em;
   }
@@ -458,6 +487,7 @@
     width: 100%;
     float: left;
   }
+
 
   #events h1 {
     font-size: 2rem;
@@ -714,10 +744,6 @@
     margin-top: 45%;
   }
 
-    .event {
-      padding: 1em;
-    }
-
   #join {
     clear: both;
     width: 100%;
@@ -937,9 +963,9 @@ footer ul li a {
 }
 
 #event1 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 #event2 img {
@@ -956,9 +982,9 @@ footer ul li a {
 }
 
 #event2 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 #event3 img {
@@ -975,9 +1001,9 @@ footer ul li a {
 }
 
 #event3 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-left: 0.5%;
-  margin-right: 2.5%;
+  margin: 0 auto;
   padding-bottom: 15%; }
 
 .edate {
@@ -986,7 +1012,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold; }
 
 .location {
@@ -995,7 +1021,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.25em;
+  font-size: 1.3em;
   font-weight: bold; }
 
 .elocation {
@@ -1008,6 +1034,9 @@ footer ul li a {
   color: #28adb3;
   text-align: center;
 }
+
+.event {
+  padding-left: 1em; }
 
 #contact {
   clear: both;
