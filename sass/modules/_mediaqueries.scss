@@ -7,6 +7,11 @@
 
     /* LOGO */
 
+.noMob
+{
+    display: none;
+}
+
 #logo
 {
     width: 20%;
@@ -341,6 +346,11 @@ footer ul li:nth-child(3){
 
 @media (min-width: 480px) and (max-width: 768px) {
 
+    .noWeb
+    {
+        display: none;
+    }
+
 
     /* LOGO */
 
@@ -602,6 +612,11 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 769px) {
+
+.noWeb
+{
+    display: none;
+}
 
 
     /* LOGO */
