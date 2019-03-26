@@ -3,7 +3,7 @@
   .noMob {
     display: none;
   }
-
+  
   #logo {
     width: 50%;
     margin-left: 3%;
@@ -183,7 +183,8 @@
   #contactIMG {
     width: 100%;
     margin-top: 1.5em;
-  }
+    display: none; }
+
 
   #contact form, p {
     margin-left: 4.5em;
@@ -264,9 +265,13 @@
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
+
+  #nav {
+    margin-left: 2em; }
+
   .noWeb {
-    display: none;
-  }
+    display: none; }
+
 
   /* LOGO */
   #logo {
@@ -385,7 +390,8 @@
   #contactIMG {
     width: 100%;
     margin-top: 1.5em;
-  }
+    display: block; }
+
 
   #contact form input, textarea {
     width: 35em;
@@ -469,9 +475,13 @@
   }
 }
 @media (min-width: 769px) {
+
+  #nav {
+    margin-left: 2em; }
+
   .noWeb {
-    display: none;
-  }
+    display: none; }
+
 
   /* LOGO */
   #logo {
@@ -577,7 +587,8 @@
   #contactIMG {
     width: 49%;
     float: right;
-  }
+    display: block; }
+
 
   #contact {
     float: left;
