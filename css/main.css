@@ -305,18 +305,17 @@
     height: 200px;
     font-family: "Roboto", sans-serif;
     font-size: 0.7em; } }
-.newsText {
+footer .newsText {
   float: none;
   text-align: center;
-  display: inline-block;
+  display: inline;
   padding-top: 20px;
   padding-bottom: 20px;
   top: 50%; }
 
-.newsForm {
+footer .newsForm {
   float: none;
-  display: inline-block;
-  padding: 55px; }
+  display: inline; }
 
 @media (min-width: 480px) and (max-width: 768px) {
   /*VIDEO*/
@@ -441,6 +440,15 @@
   footer ul li:nth-child(3) {
     margin-top: 2em; }
 
+  footer .newsForm {
+    float: none; }
+
+  footer .newsForm form input, textarea {
+    border: 0.2em #28adb3 solid;
+    padding: 1em;
+    border-radius: 0.5em;
+    font-size: 0.5em; }
+
   #contactSection {
     clear: both;
     padding-top: 2%; }
@@ -562,7 +570,20 @@
     margin-top: 0px; }
 
   #donorCount {
-    text-align: center; } }
+    text-align: center; }
+
+  footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 50%;
+    margin-left: 5%; }
+
+  footer .newsForm {
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%; } }
 @media (min-width: 769px) {
   #nav {
     margin-left: 2em; }
@@ -837,6 +858,19 @@
   footer ul {
     margin-bottom: 0px; }
 
+  footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 50%;
+    margin-left: 5%; }
+
+  footer .newsForm {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%; }
+
   #organsinneed h2 {
     padding: 20px;
     font-size: 2.4em; }
@@ -873,45 +907,22 @@ footer {
     padding: 0.5em;
     font-size: 1em;
     width: 7.5em;
-    margin-bottom: 1em;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s; }
   footer #submit:hover {
     background-color: white;
     color: #393e46;
     border: 2px solid #393e46; }
-
-.newsText {
-  float: left;
-  text-align: left;
-  margin-left: 200px;
-  display: inline-block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  top: 50%; }
-  .newsText h4 {
+  footer h4 {
     color: #393e46;
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 0; }
-  .newsText h5 {
+  footer h5 {
     color: white;
     font-size: 1.8em;
     margin-top: 0;
     margin-bottom: 0; }
-
-.newsForm {
-  float: right;
-  display: inline-block;
-  margin-right: 200px;
-  padding: 55px; }
-
-.newsForm form input, textarea {
-  border: 0.2em #28adb3 solid;
-  padding: 1em;
-  border-radius: 0.5em;
-  font-size: 0.5em;
-  margin-top: 0.5em; }
 
 .newsForm form input {
   height: 3em;

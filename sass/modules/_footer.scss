@@ -13,7 +13,7 @@ footer {
         padding: 0.5em;
         font-size: 1em;
         width: 7.5em;
-        margin-bottom: 1em;
+        // margin-bottom: 1em;
         -webkit-transition-duration: 0.4s;
         transition-duration: 0.4s;
     }
@@ -23,16 +23,6 @@ footer {
         color: $dark-grey;
         border: 2px solid $dark-grey;
       }
-}
-
-.newsText {
-    float:left;
-    text-align: left;
-    margin-left: 200px;
-    display: inline-block;
-    padding-top:20px;
-    padding-bottom:20px;
-    top:50%;
     
     h4 {
         color: $dark-grey;
@@ -50,20 +40,7 @@ footer {
     }
 }
 
-.newsForm {
-    float: right;
-    display: inline-block;
-    margin-right: 200px;
-    padding: 55px;
-}
 
-.newsForm form input, textarea {
-    border: 0.2em $blue solid;
-    padding: 1em;
-    border-radius: 0.5em;
-    font-size: 0.5em;
-    margin-top: 0.5em;
-}
 
 .newsForm form input {
     height: 3em;
