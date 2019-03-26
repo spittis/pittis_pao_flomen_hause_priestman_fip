@@ -41,4 +41,12 @@
     font-size: 1em;
     width: 7.5em;
     margin-bottom: 1em;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
+
+#submit:hover {
+    background-color: white;
+    color: $red;
+    border: 2px solid $red;
+  }
