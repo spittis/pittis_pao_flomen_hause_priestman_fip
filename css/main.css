@@ -7,7 +7,8 @@
 
   #video video {
     width: 100%;
-    height: auto; }
+    height: auto;
+    z-index: 100; }
 
   #vidLearn {
     width: 100%;
@@ -356,7 +357,8 @@ footer .newsForm {
   /*VIDEO*/
   #video video {
     width: 100%;
-    height: auto; }
+    height: auto;
+    z-index: 100; }
 
   #learnMore {
     width: 100%;
@@ -867,7 +869,8 @@ footer .newsForm {
 
   #video video {
     width: 50%;
-    float: left; }
+    float: left;
+    z-index: 100; }
 
   #learnMore {
     width: 50%;
