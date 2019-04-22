@@ -50,8 +50,18 @@ export default {
     </ul>
 </div>
 </div>
+
+<div id="red">
+    <video id="organDance" src="images/organdance.mp4" controls></video>
+    <div id="redtext">
+    <h1>Give a part of yourself!</h1>
+    <ul>
+        <li><a href="#">Register today!</a></li>
+    </ul>
+    </div>
+
 </div>
-<video id="infoVid" src="images/organdance.mp4" controls></video>
+</div>
 </div>
     `,
 

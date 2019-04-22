@@ -19,18 +19,18 @@ export default {
     <section class="footer">
     <ul>
         <li>CONTACT
-            <a>How do I register?</a>
-            <a>How do I log in?</a>
+            <a href="#">How do I register?</a>
+            <a href="#">How do I log in?</a>
         </li>
 
         <li>FAQS
-            <a>How do I register?</a>
-            <a>How do I log in?</a>
+            <a href="#">How do I register?</a>
+            <a href="#">How do I log in?</a>
         </li> 
 
         <li>HEALTH CARE MEMBERS
-            <a>Jack Nathan Health</a>
-            <a>Sunnybrook Health Sciences Centre</a>
+            <a href="#">Jack Nathan Health</a>
+            <a href="#">Sunnybrook Health Sciences Centre</a>
         </li>
     </ul>
     </section>

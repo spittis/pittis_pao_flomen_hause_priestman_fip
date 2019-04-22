@@ -906,6 +906,8 @@ footer .newsForm {
 
 @media (min-width: 769px) {
 
+
+
     .forMob
     {
         display:none;
@@ -1137,6 +1139,7 @@ footer ul li {
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%;
+    padding-top: 0.35em;
 }
 
 
@@ -1168,7 +1171,7 @@ footer ul li {
     color: $blue;
     text-align: center;
     margin-bottom: 0;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 #join p {
@@ -1186,6 +1189,39 @@ footer ul li {
 {
     width: 100%;
     background-color: black;
+}
+
+#organDance {
+    width: 50%;
+    float: right;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 50%;
+    height: 22.5em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
 }
 
 #video video
@@ -1418,6 +1454,10 @@ footer .newsForm {
       top: 5%;
       left:5%;
       width:90%;
+  }
+
+  #bluetext h1 {
+      padding-top: 1%;
   }
 }
 
