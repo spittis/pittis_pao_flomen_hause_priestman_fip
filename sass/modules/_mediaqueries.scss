@@ -26,6 +26,7 @@
     background-color: black;
 }
 
+
 #learnMore
 {
     width: 100%;
@@ -49,6 +50,37 @@
     padding: 1%;
     margin-left: 7%;
     margin-right: 7%;
+}
+
+#organDance {
+    width: 100%;
+    float: none;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 100%;
+    height: 22.5em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
     /* LOGO */
@@ -523,6 +555,37 @@ footer .newsForm {
     padding: 1%;
     margin-left: 7%;
     margin-right: 7%;
+}
+
+#organDance {
+    width: 100%;
+    float: none;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 100%;
+    height: 20em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
 }
 
     #nav {
@@ -1236,8 +1299,8 @@ footer ul li {
     float: left;
     background: $blue;
     color: white;
-    margin-top: 0.6%;
-    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-bottom: 7%;
 }
 
 #learnMore h1
