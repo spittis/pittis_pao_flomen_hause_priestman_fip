@@ -10,7 +10,7 @@ export default {
 
         <section class="newsForm">
         <form>
-        <textarea id="newsForm" name="newsForm" placeholder="Email... " required></textarea>
+        <input id="newsForm" name="newsForm" placeholder="Email... " required>
         <button type="submit" name="newsSubmit" id="submit" class="button">Submit</button>
         </section>
 

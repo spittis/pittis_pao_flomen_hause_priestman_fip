@@ -673,11 +673,18 @@ footer .newsForm {
     float: none;
 }
 
-footer .newsForm form input, textarea {
+footer .newsForm form {
+    margin-right: 1.5em;
+}
+
+footer .newsForm form input {
     border: 0.2em $blue solid;
-    padding: 1em;
+    padding-top: 0.65em;
+    padding-left: 0.5em;
+    padding-bottom: 0.65em;
     border-radius: 0.5em;
-    font-size: 0.5em;
+    font-size: 0.8em;
+    width: 20em;
 }
 
 
@@ -1062,6 +1069,18 @@ footer ul li {
     margin-right: 3em;
 }
 
+.newsForm form {
+    margin-top: 1em;
+}
+.newsForm form input {
+    height: 3em;
+    padding-top: 0.25em;
+    padding-left: 0.5em;
+    border: 0.2em $blue solid;
+    border-radius: 0.5em;
+    width: 35em;
+}
+
 
 //CONTACT
 #contactSection {
@@ -1387,6 +1406,7 @@ footer .newsForm {
   {
       position: absolute;
       margin-left:50%;
+      padding-top: 1.5em;
   }
 
   #bluetext{
