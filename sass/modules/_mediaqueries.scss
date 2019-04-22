@@ -18,6 +18,7 @@
     #video video {
         width: 100%;
         height: auto;
+        z-index: 100;
     }
 
     #vidLearn
@@ -529,6 +530,7 @@ footer .newsForm {
     #video video {
         width: 100%;
         height: auto;
+        z-index: 100;
     }
 
 
@@ -1291,6 +1293,7 @@ footer ul li {
 {
     width: 50%;
     float: left;
+    z-index: 100;
 }
 
 #learnMore
