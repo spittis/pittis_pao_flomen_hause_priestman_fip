@@ -14,6 +14,23 @@
         opacity: 0;
       }
 
+      .mobileTest {
+        color: white;
+        font-family: $body;
+        font-size: 12px;
+        position: absolute;
+        bottom:0;
+        left:50%;
+        margin-bottom:22em;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .donorTest{
+          display: none;
+      }
+
     // VIDEO
     #video video {
         width: 100%;
@@ -721,6 +738,35 @@ border-bottom: 4px solid $red; //this is the nav underline
     float: left;
 }
 
+.mobileTest {
+    color: white;
+    font-family: $body;
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-bottom:3em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .donorTest{
+      display: none;
+  }
+
+  .donorName {
+    font-size: 15px;
+    margin-bottom:10em;
+}
+
+  .donorOrgan {
+    
+    font-size: 13px;
+    margin-bottom:8em;
+  }
+
+
 //FOOTER
   
 footer ul li {
@@ -1104,6 +1150,25 @@ border-bottom: 5px solid $red; //this is the nav underline
     // max-width: 100%;
     // height: auto;
 }
+
+.mobileTest {
+    display: none;
+}  
+
+  .donorName {
+    font-size: 25px;
+    margin-bottom:23em;
+}
+
+  .donorOrgan {
+    
+    font-size: 15px;
+    margin-bottom:24em;
+  }
+
+  .donorTest {
+    margin-top: 27em;
+  }
     
     // .caption {
     // opacity: 0;
