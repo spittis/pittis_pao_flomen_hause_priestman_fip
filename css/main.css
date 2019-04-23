@@ -1150,6 +1150,9 @@ footer {
   color: white;
   text-decoration: none; }
 
+.footer ul li a:hover {
+  color: #ec424c; }
+
 #event1 img {
   width: 90%;
   padding: 5%; }
