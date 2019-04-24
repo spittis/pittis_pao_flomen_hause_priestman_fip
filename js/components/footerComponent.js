@@ -2,22 +2,38 @@ export default {
 
     template: `
     <footer>
+    <section class="newsletter">
+        <section class="newsText">
+        <h4>KEEP CONNECTED</h4>
+        <h5>SIGN UP FOR OUR<br>NEWSLETTER<h5>
+        </section>
+
+        <section class="newsForm">
+        <form>
+        <input id="newsForm" name="newsForm" placeholder="Email... " required>
+        <button type="submit" name="newsSubmit" id="submit" class="button">Submit</button>
+        </section>
+
+    </section>
+
+    <section class="footer">
     <ul>
         <li>CONTACT
-            <a>How do I register?</a>
-            <a>How do I log in?</a>
+            <a href="#">How do I register?</a>
+            <a href="#">How do I log in?</a>
         </li>
 
         <li>FAQS
-            <a>How do I register?</a>
-            <a>How do I log in?</a>
+            <a href="#">How do I register?</a>
+            <a href="#">How do I log in?</a>
         </li> 
 
         <li>HEALTH CARE MEMBERS
-            <a>Jack Nathan Health</a>
-            <a>Sunnybrook Health Sciences Centre</a>
+            <a href="#">Jack Nathan Health</a>
+            <a href="#">Sunnybrook Health Sciences Centre</a>
         </li>
     </ul>
+    </section>
 </footer>
     `,
 

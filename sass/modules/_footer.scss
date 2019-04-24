@@ -1,21 +1,96 @@
 footer {
     clear: both;
+    background-color: $yellow;
+    color: white;
+    text-align: center;
+
+    #submit {
+        background-color: $dark-grey;
+        font-family: $body;
+        border: none;
+        border-radius: 0.5em;
+        color: white;
+        padding: 0.5em;
+        font-size: 1em;
+        width: 7.5em;
+        // margin-bottom: 1em;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+    
+    #submit:hover {
+        background-color: white;
+        color: $dark-grey;
+        border: 2px solid $dark-grey;
+      }
+    
+    h4 {
+        color: $dark-grey;
+        font-size: 1.2em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        color: white;
+        font-size: 1.8em;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+}
+
+
+
+// .newsForm form input {
+//     height: 3em;
+//     padding-top: 0.25em;
+//     padding-left: 0.5em;
+//     border: 0.2em $blue solid;
+//     border-radius: 0.5em;
+//     width: 35em;
+// }
+
+.newsForm ::placeholder {
+    font-family: $body;
+    font-size: 1.5em;
+    padding-top: 1.5em;
+    color: $blue;
+}
+
+.newsForm h1 {
+    color: $blue;
+    text-transform: uppercase;
+}
+
+
+
+
+.footer {
+    padding: 20px;
+    clear: both;
     background-color: $dark-grey;
     color: white;
 }
 
-footer ul {
+.footer ul {
     list-style: none;
     padding: 1em;
     text-align: center;
 }
 
-footer ul li {
+.footer ul li {
     font-weight: bold;
     display: inline-block;
 }
 
-footer ul li a {
+.footer ul li a {
     font-weight: normal;
     display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: $red;
 }

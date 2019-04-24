@@ -1,0 +1,75 @@
+.testimonial {
+    position: relative;
+    width: 25%;
+    float: left;
+    display: block;
+  }
+
+  .donorImg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .donorOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $blue;
+  }
+  
+  // .testimonial:hover .donorOverlay {
+  //   opacity: 1;
+  // }
+  
+.donorTest {
+    color: white;
+    font-family: $body;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.donorName {
+    color: $dark-grey;
+    font-family: $body;
+    font-size: 17px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    // margin-bottom:22em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+  .donorOrgan {
+    color: white;
+    font-family: $body;
+    // font-size: 15px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    // margin-bottom:22em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  

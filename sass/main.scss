@@ -7,7 +7,13 @@
 @import 'modules/contact';
 @import 'modules/animate';
 @import 'modules/organsinneed';
+@import 'modules/profiles';
+@import 'modules/admin';
 
+#infoVid
+{
+    width:100%;
+}
 
 .hidden 
 {
@@ -65,4 +71,22 @@ footer {
 
 #contact {
     font-family: $body;
+}
+
+
+
+
+
+
+
+
+
+
+//pop up
+
+
+
+
+#modal-content {
+  display: none;
 }

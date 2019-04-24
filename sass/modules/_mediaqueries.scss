@@ -5,12 +5,126 @@
 
 @media (max-width: 479px) {
 
+    .forWeb
+    {
+        display:none;
+    }
+
+    .testimonial:hover .donorOverlay {
+        opacity: 0;
+      }
+
+      .mobileTest {
+        color: white;
+        font-family: $body;
+        font-size: 12px;
+        position: absolute;
+        bottom:0;
+        left:50%;
+        margin-bottom:22em;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .donorTest{
+          display: none;
+      }
+
+    // VIDEO
+    #video video {
+        width: 100%;
+        height: auto;
+        z-index: 100;
+    }
+
+    #vidLearn
+{
+    width: 100%;
+    background-color: black;
+}
+
+
+#learnMore
+{
+    width: 100%;
+    float: left;
+    background: $blue;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+}
+
+#learnMore h1
+{
+    text-align: center;
+    font-family: $headers;
+    font-size: 2em;
+}
+
+#learnMore ul li
+{
+    font-family: $body;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#organDance {
+    width: 100%;
+    float: none;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 100%;
+    height: 22.5em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
     /* LOGO */
 
 .noMob
 {
     display: none;
 }
+
+#top {
+    padding-bottom: 15px;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+
+  #top.top-fixed {
+    background: rgba(255, 255, 255, 0.7); /*Nav colour*/
+    height: 100px;
+    transition: all 0.5s;
+  }
+
 
 #logo
 {
@@ -63,7 +177,7 @@
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: white;
+  background: $dark-grey;
   z-index: 1;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -127,11 +241,6 @@
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
-
-#top
-{
-    background: white;
 }
 
 #checkbox
@@ -198,6 +307,11 @@ footer ul li:nth-child(3){
 }
 
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 2.5%;
+}
+
 #contact h1 {
     margin-left: 2.24em;
     width: 100%;
@@ -232,6 +346,11 @@ footer ul li:nth-child(3){
 
 /* EVENTS SECTION */
 
+#upcoming {
+    clear: both;
+    padding-top: 2em;
+}
+
 #event1
 {
     width: 100%;
@@ -256,6 +375,12 @@ footer ul li:nth-child(3){
     margin-bottom: 1em;
     margin-top: 20%;
 }
+
+// .event {
+//     padding-left: 1em;
+//     padding-right: 1em;
+
+// }
 
 //JOIN
 #join
@@ -320,10 +445,75 @@ footer ul li:nth-child(3){
    margin-top: 2px;
 }
 
+#donorCount
+{
+    width: 100%;
+    float: left;
+}
 
+#donorCount h3
+{
+    padding-left: 11%;
+    font-family: $headers;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+#donorCount p
+{
+    font-family: $body;
+    font-size: 0.9em;
+    width: 80%;
+}
+
+#number
+{
+    width: 40%;
+    float: left;
+    color: $red;
+    font-family: $headers;
+    font-size: 6em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+#waitList
+{
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+#waitCount
+{
+    height: 200px;
+    font-family: $body;
+    font-size: 0.7em;
+}
 
 
 }
+
+footer .newsText {
+    float:none;
+    text-align: center;
+    display: inline;
+    padding-top:20px;
+    padding-bottom:20px;
+    top:50%;
+}
+
+footer .newsForm {
+    float: none;
+    display: inline;
+}
+
 
 
 //MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE
@@ -347,6 +537,76 @@ footer ul li:nth-child(3){
 
 @media (min-width: 480px) and (max-width: 768px) {
 
+    .forWeb
+    {
+        display:none;
+    }
+
+    /*VIDEO*/
+
+    #video video {
+        width: 100%;
+        height: auto;
+        z-index: 100;
+    }
+
+
+#learnMore
+{
+    width: 100%;
+    float: left;
+    background: $blue;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+}
+
+#learnMore h1
+{
+    text-align: center;
+    font-family: $headers;
+    font-size: 2em;
+}
+
+#learnMore ul li
+{
+    font-family: $body;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#organDance {
+    width: 100%;
+    float: none;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 100%;
+    height: 20em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 1em;
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
     #nav {
         margin-left: 2em;
     }
@@ -356,6 +616,11 @@ footer ul li:nth-child(3){
         display: none;
     }
 
+    #vidLearn
+{
+    width: 100%;
+    background-color: black;
+}
 
     /* LOGO */
 
@@ -413,6 +678,7 @@ text-align: center;
 float: right;
 background: $dark-grey;
 width: 100%;
+margin-bottom: 0;
 }
 
 #menu li:hover{
@@ -472,6 +738,35 @@ border-bottom: 4px solid $red; //this is the nav underline
     float: left;
 }
 
+.mobileTest {
+    color: white;
+    font-family: $body;
+    font-size: 12px;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-bottom:3em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .donorTest{
+      display: none;
+  }
+
+  .donorName {
+    font-size: 15px;
+    margin-bottom:10em;
+}
+
+  .donorOrgan {
+    
+    font-size: 13px;
+    margin-bottom:8em;
+  }
+
+
 //FOOTER
   
 footer ul li {
@@ -485,13 +780,37 @@ footer ul li:nth-child(3){
     margin-top: 2em;
 }
 
+footer .newsForm {
+    float: none;
+}
+
+footer .newsForm form {
+    margin-right: 1.5em;
+}
+
+footer .newsForm form input {
+    border: 0.2em $blue solid;
+    padding-top: 0.65em;
+    padding-left: 0.5em;
+    padding-bottom: 0.65em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    width: 20em;
+}
+
+
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 2%;
+}
+
 #contact h1, p {
     width: 100%;
 }
 
 #contact {
-    margin-left: 5em;
+    margin-left: 25%;
     width: 100%;
 }
 
@@ -505,9 +824,9 @@ footer ul li:nth-child(3){
     width: 35em;
 }
 
-#contact form, p {
-    margin-left: 5em;
-}
+// #contact form, p {
+//     margin-left: 5em;
+// }
 
 /* EVENTS SECTION */
 
@@ -598,6 +917,85 @@ footer ul li:nth-child(3){
    margin-top: 2px;
 }
 
+//donor count
+
+#donorCount
+{
+    width: 100%;
+    // float: left;
+}
+
+#donorCount h3
+{
+    padding-left: 11%;
+    font-family: $headers;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+#donorCount p
+{
+    padding-left: 11%;
+    font-family: $body;
+    font-size: 1em;
+    width: 80%;
+}
+
+#number
+{
+    width: 40%;
+    float: left;
+    color: $red;
+    font-family: $headers;
+    font-size: 8em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+#waitList
+{
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+#waitCount
+{
+    height: 200px;
+    font-family: $body;
+    font-size: 0.7em;
+    margin-top: 0px;
+}
+
+#donorCount {
+    text-align: center;
+}
+
+footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    top:50%;
+    margin-left: 5%;
+}
+
+footer .newsForm {
+    float: right;
+    margin-top:5%;
+    margin-right: 5%;
+}
+
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
 
 
 }
@@ -618,6 +1016,13 @@ footer ul li:nth-child(3){
 //HERE
 
 @media (min-width: 769px) {
+
+
+
+    .forMob
+    {
+        display:none;
+    }
 
     #nav {
         margin-left: 2em;
@@ -745,6 +1150,25 @@ border-bottom: 5px solid $red; //this is the nav underline
     // max-width: 100%;
     // height: auto;
 }
+
+.mobileTest {
+    display: none;
+}  
+
+  .donorName {
+    font-size: 25px;
+    margin-bottom:23em;
+}
+
+  .donorOrgan {
+    
+    font-size: 15px;
+    margin-bottom:24em;
+  }
+
+  .donorTest {
+    margin-top: 27em;
+  }
     
     // .caption {
     // opacity: 0;
@@ -777,8 +1201,25 @@ footer ul li {
     margin-right: 3em;
 }
 
+.newsForm form {
+    margin-top: 1em;
+}
+.newsForm form input {
+    height: 3em;
+    padding-top: 0.25em;
+    padding-left: 0.5em;
+    border: 0.2em $blue solid;
+    border-radius: 0.5em;
+    width: 35em;
+}
+
 
 //CONTACT
+#contactSection {
+    clear: both;
+    padding-top: 5%;
+}
+
 #contactIMG {
     width: 49%;
     float: right;
@@ -807,19 +1248,19 @@ footer ul li {
 
 #event1
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event2
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
 #event3
 {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
@@ -828,6 +1269,18 @@ footer ul li {
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%;
+    padding-top: 0.35em;
+}
+
+
+#events {
+    clear: both;
+    margin-left: 2.5%;
+}
+
+#events .event {
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 //JOIN
@@ -835,6 +1288,7 @@ footer ul li {
 {
     clear: both;
     width: 100%;
+    margin-bottom: -6px;
 }
 
 #join img {
@@ -847,7 +1301,7 @@ footer ul li {
     color: $blue;
     text-align: center;
     margin-bottom: 0;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 #join p {
@@ -864,12 +1318,47 @@ footer ul li {
 #vidLearn
 {
     width: 100%;
+    background-color: black;
 }
 
-#video img
+#organDance {
+    width: 50%;
+    float: right;
+}
+
+#redtext{
+    background-color: $red;
+    color: white;
+    width: 50%;
+    height: 22.5em;
+    font-family: $headers;
+}
+
+#redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+}
+
+#redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+
+}
+
+#redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+#video video
 {
     width: 50%;
     float: left;
+    z-index: 100;
 }
 
 #learnMore
@@ -878,20 +1367,21 @@ footer ul li {
     float: left;
     background: $blue;
     color: white;
+    margin-top: 3%;
+    margin-bottom: 7%;
 }
 
 #learnMore h1
 {
-    margin-top: 15%;
     text-align: center;
     font-family: $headers;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 #learnMore ul li
 {
     font-family: $body;
-    padding: 2%;
+    padding: 1%;
     margin-left: 7%;
     margin-right: 7%;
 }
@@ -955,6 +1445,8 @@ footer ul li {
     margin-top:-17px;
 }
 
+//wait list area
+
 #donorCount
 {
     width: 50%;
@@ -1010,6 +1502,20 @@ footer ul
 }
 
 
+footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    top:50%;
+    margin-left: 5%;
+}
+
+footer .newsForm {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+}
 
 
 //desktop for organs in need
@@ -1047,8 +1553,43 @@ footer ul
 }
 
 
+.testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
+
+  #blueback
+  {
+      width:100%;
+  }
+
+  #video
+  {
+      padding: 0;
+      margin: 0;
+  }
 
 
+  #blue
+  {
+      position: absolute;
+      margin-left:50%;
+      padding-top: 1.5em;
+  }
+
+  #bluetext{
+      position: relative;
+      color: white;
+      font-family: $headers;
+      padding-top: 1%;
+      font-size: 1em;
+      top: 5%;
+      left:5%;
+      width:90%;
+  }
+
+  #bluetext h1 {
+      padding-top: 1%;
+  }
 }
 
 //DESKTOP

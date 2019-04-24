@@ -1,7 +1,115 @@
 @media (max-width: 479px) {
+  .forWeb {
+    display: none;
+  }
+
+  .testimonial:hover .donorOverlay {
+    opacity: 0;
+  }
+
+  .mobileTest {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 22em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .donorTest {
+    display: none;
+  }
+
+  #video video {
+    width: 100%;
+    height: auto;
+    z-index: 100;
+  }
+
+  #vidLearn {
+    width: 100%;
+    background-color: black;
+  }
+
+  #learnMore {
+    width: 100%;
+    float: left;
+    background: #28adb3;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+  }
+
+  #learnMore h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+  }
+
+  #learnMore ul li {
+    font-family: "Roboto", sans-serif;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #organDance {
+    width: 100%;
+    float: none;
+  }
+
+  #redtext {
+    background-color: #ec424c;
+    color: white;
+    width: 100%;
+    height: 22.5em;
+    font-family: "Oswald", sans-serif;
+  }
+
+  #redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+  }
+
+  #redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  #redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
   /* LOGO */
   .noMob {
     display: none;
+  }
+
+  #top {
+    padding-bottom: 15px;
+    height: 92px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+  }
+
+  #top.top-fixed {
+    background: rgba(255, 255, 255, 0.7);
+    /*Nav colour*/
+    height: 100px;
+    transition: all 0.5s;
   }
 
   #logo {
@@ -47,7 +155,7 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: white;
+    background: #393e46;
     z-index: 1;
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
@@ -100,10 +208,6 @@
 
   #menuToggle input:checked ~ ul {
     transform: none;
-  }
-
-  #top {
-    background: white;
   }
 
   #checkbox {
@@ -160,6 +264,11 @@
     margin-top: 2em;
   }
 
+  #contactSection {
+    clear: both;
+    padding-top: 2.5%;
+  }
+
   #contact h1 {
     margin-left: 2.24em;
     width: 100%;
@@ -191,6 +300,11 @@
   }
 
   /* EVENTS SECTION */
+  #upcoming {
+    clear: both;
+    padding-top: 2em;
+  }
+
   #event1 {
     width: 100%;
     float: left;
@@ -263,14 +377,142 @@
     padding: 0;
     margin-top: 2px;
   }
+
+  #donorCount {
+    width: 100%;
+    float: left;
+  }
+
+  #donorCount h3 {
+    padding-left: 11%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #donorCount p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9em;
+    width: 80%;
+  }
+
+  #number {
+    width: 40%;
+    float: left;
+    color: #ec424c;
+    font-family: "Oswald", sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: 0;
+  }
+
+  #waitList {
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+  }
+
+  #waitCount {
+    height: 200px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7em;
+  }
 }
+footer .newsText {
+  float: none;
+  text-align: center;
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 50%;
+}
+
+footer .newsForm {
+  float: none;
+  display: inline;
+}
+
 @media (min-width: 480px) and (max-width: 768px) {
+  .forWeb {
+    display: none;
+  }
+
+  /*VIDEO*/
+  #video video {
+    width: 100%;
+    height: auto;
+    z-index: 100;
+  }
+
+  #learnMore {
+    width: 100%;
+    float: left;
+    background: #28adb3;
+    color: white;
+    margin-top: 0.6%;
+    margin-bottom: 5%;
+  }
+
+  #learnMore h1 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 2em;
+  }
+
+  #learnMore ul li {
+    font-family: "Roboto", sans-serif;
+    padding: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #organDance {
+    width: 100%;
+    float: none;
+  }
+
+  #redtext {
+    background-color: #ec424c;
+    color: white;
+    width: 100%;
+    height: 20em;
+    font-family: "Oswald", sans-serif;
+  }
+
+  #redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3em;
+  }
+
+  #redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  #redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
   #nav {
     margin-left: 2em;
   }
 
   .noWeb {
     display: none;
+  }
+
+  #vidLearn {
+    width: 100%;
+    background-color: black;
   }
 
   /* LOGO */
@@ -317,6 +559,7 @@
     float: right;
     background: #393e46;
     width: 100%;
+    margin-bottom: 0;
   }
 
   #menu li:hover {
@@ -367,6 +610,34 @@
     float: left;
   }
 
+  .mobileTest {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 3em;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .donorTest {
+    display: none;
+  }
+
+  .donorName {
+    font-size: 15px;
+    margin-bottom: 10em;
+  }
+
+  .donorOrgan {
+    font-size: 13px;
+    margin-bottom: 8em;
+  }
+
   footer ul li {
     display: block;
     text-align: center;
@@ -378,12 +649,35 @@
     margin-top: 2em;
   }
 
+  footer .newsForm {
+    float: none;
+  }
+
+  footer .newsForm form {
+    margin-right: 1.5em;
+  }
+
+  footer .newsForm form input {
+    border: 0.2em #28adb3 solid;
+    padding-top: 0.65em;
+    padding-left: 0.5em;
+    padding-bottom: 0.65em;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    width: 20em;
+  }
+
+  #contactSection {
+    clear: both;
+    padding-top: 2%;
+  }
+
   #contact h1, p {
     width: 100%;
   }
 
   #contact {
-    margin-left: 5em;
+    margin-left: 25%;
     width: 100%;
   }
 
@@ -395,10 +689,6 @@
 
   #contact form input, textarea {
     width: 35em;
-  }
-
-  #contact form, p {
-    margin-left: 5em;
   }
 
   /* EVENTS SECTION */
@@ -473,8 +763,82 @@
     padding: 0;
     margin-top: 2px;
   }
+
+  #donorCount {
+    width: 100%;
+  }
+
+  #donorCount h3 {
+    padding-left: 11%;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  #donorCount p {
+    padding-left: 11%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    width: 80%;
+  }
+
+  #number {
+    width: 40%;
+    float: left;
+    color: #ec424c;
+    font-family: "Oswald", sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -15px;
+    margin-bottom: 0;
+  }
+
+  #waitList {
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    margin-top: 10%;
+  }
+
+  #waitCount {
+    height: 200px;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7em;
+    margin-top: 0px;
+  }
+
+  #donorCount {
+    text-align: center;
+  }
+
+  footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 50%;
+    margin-left: 5%;
+  }
+
+  footer .newsForm {
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+  }
+
+  .testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
 }
 @media (min-width: 769px) {
+  .forMob {
+    display: none;
+  }
+
   #nav {
     margin-left: 2em;
   }
@@ -577,11 +941,47 @@
     display: block;
   }
 
+  .mobileTest {
+    display: none;
+  }
+
+  .donorName {
+    font-size: 25px;
+    margin-bottom: 23em;
+  }
+
+  .donorOrgan {
+    font-size: 15px;
+    margin-bottom: 24em;
+  }
+
+  .donorTest {
+    margin-top: 27em;
+  }
+
   footer ul li {
     display: inline;
     text-align: left;
     margin-left: 3em;
     margin-right: 3em;
+  }
+
+  .newsForm form {
+    margin-top: 1em;
+  }
+
+  .newsForm form input {
+    height: 3em;
+    padding-top: 0.25em;
+    padding-left: 0.5em;
+    border: 0.2em #28adb3 solid;
+    border-radius: 0.5em;
+    width: 35em;
+  }
+
+  #contactSection {
+    clear: both;
+    padding-top: 5%;
   }
 
   #contactIMG {
@@ -610,17 +1010,17 @@
 
   /* EVENTS SECTION */
   #event1 {
-    width: 33%;
+    width: 30%;
     float: left;
   }
 
   #event2 {
-    width: 33%;
+    width: 30%;
     float: left;
   }
 
   #event3 {
-    width: 33%;
+    width: 30%;
     float: left;
   }
 
@@ -628,11 +1028,23 @@
     font-size: 2rem;
     margin-bottom: 1em;
     margin-top: 45%;
+    padding-top: 0.35em;
+  }
+
+  #events {
+    clear: both;
+    margin-left: 2.5%;
+  }
+
+  #events .event {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   #join {
     clear: both;
     width: 100%;
+    margin-bottom: -6px;
   }
 
   #join img {
@@ -645,7 +1057,7 @@
     color: #28adb3;
     text-align: center;
     margin-bottom: 0;
-    padding-top: 10%;
+    padding-top: 2%;
   }
 
   #join p {
@@ -660,11 +1072,44 @@
   /* video and facts */
   #vidLearn {
     width: 100%;
+    background-color: black;
   }
 
-  #video img {
+  #organDance {
+    width: 50%;
+    float: right;
+  }
+
+  #redtext {
+    background-color: #ec424c;
+    color: white;
+    width: 50%;
+    height: 22.5em;
+    font-family: "Oswald", sans-serif;
+  }
+
+  #redtext h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4em;
+  }
+
+  #redtext ul li {
+    list-style: none;
+    text-align: center;
+    padding-top: 2em;
+  }
+
+  #redtext ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  #video video {
     width: 50%;
     float: left;
+    z-index: 100;
   }
 
   #learnMore {
@@ -672,18 +1117,19 @@
     float: left;
     background: #28adb3;
     color: white;
+    margin-top: 3%;
+    margin-bottom: 7%;
   }
 
   #learnMore h1 {
-    margin-top: 15%;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   #learnMore ul li {
     font-family: "Roboto", sans-serif;
-    padding: 2%;
+    padding: 1%;
     margin-left: 7%;
     margin-right: 7%;
   }
@@ -784,6 +1230,21 @@
     margin-bottom: 0px;
   }
 
+  footer .newsText {
+    float: left;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 50%;
+    margin-left: 5%;
+  }
+
+  footer .newsForm {
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+  }
+
   #organsinneed h2 {
     padding: 20px;
     font-size: 2.4em;
@@ -808,31 +1269,151 @@
     padding: 0;
     margin-top: 2px;
   }
+
+  .testimonial:hover .donorOverlay {
+    opacity: 1;
+  }
+
+  #blueback {
+    width: 100%;
+  }
+
+  #video {
+    padding: 0;
+    margin: 0;
+  }
+
+  #blue {
+    position: absolute;
+    margin-left: 50%;
+    padding-top: 1.5em;
+  }
+
+  #bluetext {
+    position: relative;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    padding-top: 1%;
+    font-size: 1em;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+  }
+
+  #bluetext h1 {
+    padding-top: 1%;
+  }
 }
 #header img {
   width: 100%;
 }
 
+#heads1 {
+  position: absolute;
+  display: inline-block;
+  left: 0%;
+  z-index: 0;
+}
+
+#heads2 {
+  display: inline-block;
+  left: 0%;
+}
+
+.dual {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  left: 0%;
+}
+
+#random {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+#menu {
+  margin-bottom: 0;
+}
+
 footer {
+  clear: both;
+  background-color: #f4b22a;
+  color: white;
+  text-align: center;
+}
+footer #submit {
+  background-color: #393e46;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 0.5em;
+  color: white;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 7.5em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+footer #submit:hover {
+  background-color: white;
+  color: #393e46;
+  border: 2px solid #393e46;
+}
+footer h4 {
+  color: #393e46;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer h5 {
+  color: white;
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsForm ::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  padding-top: 1.5em;
+  color: #28adb3;
+}
+
+.newsForm h1 {
+  color: #28adb3;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding: 20px;
   clear: both;
   background-color: #393e46;
   color: white;
 }
 
-footer ul {
+.footer ul {
   list-style: none;
   padding: 1em;
   text-align: center;
 }
 
-footer ul li {
+.footer ul li {
   font-weight: bold;
   display: inline-block;
 }
 
-footer ul li a {
+.footer ul li a {
   font-weight: normal;
   display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ec424c;
 }
 
 #event1 img {
@@ -849,9 +1430,11 @@ footer ul li a {
 }
 
 #event1 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 #event2 img {
@@ -868,9 +1451,11 @@ footer ul li a {
 }
 
 #event2 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 #event3 img {
@@ -887,9 +1472,11 @@ footer ul li a {
 }
 
 #event3 p {
+  font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 0 auto;
-  padding-bottom: 15%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-bottom: 10%;
 }
 
 .edate {
@@ -898,7 +1485,7 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -908,13 +1495,15 @@ footer ul li a {
   text-align: center;
   color: #ec424c;
   font-family: "Oswald", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
 .elocation {
+  clear: both;
   width: 100%;
   padding-bottom: 20%;
+  margin-left: 3%;
 }
 
 #events h1 {
@@ -966,6 +1555,14 @@ footer ul li a {
   font-size: 1em;
   width: 7.5em;
   margin-bottom: 1em;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#submit:hover {
+  background-color: white;
+  color: #ec424c;
+  border: 2px solid #ec424c;
 }
 
 @-webkit-keyframes bounce {
@@ -4025,16 +4622,155 @@ footer ul li a {
 
 #organsinneed div h3 {
   color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+#organsinneed div h3:hover {
+  color: #f4b22a;
+  transition: all 0.2s ease-in-out;
+}
+
+#organsinneed h4 {
   color: white;
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
 
-#organsinneed h4 {
+.testimonial {
+  position: relative;
+  width: 25%;
+  float: left;
+  display: block;
+}
+
+.donorImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.donorOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #28adb3;
+}
+
+.donorTest {
   color: white;
-  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.donorName {
+  color: #393e46;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.donorOrgan {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#login {
+  color: white;
   font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 15%;
+}
+@media only screen and (min-width: 600px) {
+  #login {
+    margin-top: 5%;
+  }
+}
+
+#loginPage {
+  background-color: #393e46;
+}
+
+#adminForm {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+#adminForm input {
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+#loginBtn {
+  margin: 10px;
+  padding: 10px;
+  background-color: #393e46;
+  border: none;
+  color: white;
+  font-size: 1em;
+  border-bottom: 5px solid #393e46;
+  cursor: pointer;
+}
+
+#loginBtn:hover {
+  margin: 10px;
+  padding: 10px;
+  background-color: #393e46;
+  border-bottom: 5px solid #ec424c;
+  color: lightgrey;
+  font-size: 1em;
+}
+
+#loginLogo {
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  position: fixed;
+}
+@media only screen and (min-width: 600px) {
+  #loginLogo {
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    position: fixed;
+  }
+}
+
+#infoVid {
+  width: 100%;
 }
 
 .hidden {
@@ -4082,6 +4818,10 @@ footer {
 
 #contact {
   font-family: "Roboto", sans-serif;
+}
+
+#modal-content {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
