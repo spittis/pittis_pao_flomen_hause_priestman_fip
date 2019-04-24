@@ -6,7 +6,8 @@
     $id = $_GET['ID'];    
 	$tbl = 'us01_users';
 	$col = 'ID';
-	
+     
+   
 	$get_user_set = getSingle($tbl,$col,$id);
 
 // echo $get_user_set;
@@ -39,7 +40,7 @@
 </head>
 <body>
 
-    <h2 class="columns subHead small-12 text-center">Edit Admin</h2>
+    <h2 class="columns small-12 text-center">Edit Admin</h2>
 
 	<?php if(!empty($message)):?>
 	<p class="columns"><?php echo $message;?></p>
@@ -48,22 +49,22 @@
 <?php if($found_user = $get_user_set->fetch(PDO::FETCH_ASSOC)):?>
 <form class="row small-4" action="adminUpdateInfo.php?ID=<?php echo $id;?>" method="post">
         <label class="columns" for="user">Username:</label>
-        <input class="columns" type="text" id="user" name="user" value="<?php echo $found_admin['user'];?>">
+        <input class="columns" type="text" id="user" name="user" value="<?php echo $found_user['user'];?>">
 
         <label class="columns" for="fname">Firstname:</label>
-        <input class="columns" type="text" id="fname" name="fname" value="<?php echo $found_admin['fname'];?>">
+        <input class="columns" type="text" id="fname" name="fname" value="<?php echo $found_user['fname'];?>">
 
         <label class="columns" for="lname">Lastname:</label>
-        <input class="columns" type="text" id="lname" name="lname" value="<?php echo $found_admin['lname'];?>">
+        <input class="columns" type="text" id="lname" name="lname" value="<?php echo $found_user['lname'];?>">
 
         <label class="columns" for="email">Email:</label>
-        <input class="columns" type="email" id="email" name="email" value="<?php echo $found_admin['email'];?>">
+        <input class="columns" type="email" id="email" name="email" value="<?php echo $found_user['email'];?>">
 
         <label class="columns" for="userLevel">User Access Level:</label>
-        <input class="columns" type="text" id="userLevel" name="userLevel" value="<?php echo $found_admin['userLevel'];?>">
+        <input class="columns" type="text" id="userLevel" name="userLevel" value="<?php echo $found_user['userLevel'];?>">
 
         <label class="columns" for="pass">Password:</label>
-        <input class="columns" type="password" id="pass" name="pass" value="<?php echo $found_admin['pass'];?>">
+        <input class="columns" type="password" id="pass" name="pass" value="<?php echo $found_user['pass'];?>">
 
         <button class="columns button" type="submit" name="submit">Update Admin</button>
     </form>
