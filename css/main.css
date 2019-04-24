@@ -1308,6 +1308,32 @@ footer .newsForm {
   width: 100%;
 }
 
+#heads1 {
+  position: absolute;
+  display: inline-block;
+  left: 0%;
+  z-index: 0; }
+
+#heads2 {
+  display: inline-block;
+  left: 0%; }
+
+.dual {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  left: 0%; }
+
+#random {
+  display: block;
+  position: relative;
+  width: 100%; }
+
+#menu {
+  margin-bottom: 0; }
+
 footer {
   clear: both;
   background-color: #f4b22a;
@@ -4787,5 +4813,8 @@ footer {
 #contact {
   font-family: "Roboto", sans-serif;
 }
+
+#modal-content {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
