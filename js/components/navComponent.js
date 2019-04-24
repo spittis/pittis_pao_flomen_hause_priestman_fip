@@ -1,7 +1,7 @@
 export default {
     template: `
     <div id="top">
-    <img id="logo" src="images/Ontario_Connect_Logo.svg">
+    <img id="logo" src="images/Ontario_Connect_Logo2.svg">
 
         <div id="emailUs">
             <img src="images/Location.svg">
