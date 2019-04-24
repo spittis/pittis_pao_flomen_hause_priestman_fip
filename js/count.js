@@ -73,7 +73,7 @@ var waypoint = new Waypoint({
     setTimeout(function() {
       lastFocus = document.activeElement;
       displayPopup();
-    }, 10*60*1000);
+    }, 2*60*1000);
   }
 
   //2*60*1000
