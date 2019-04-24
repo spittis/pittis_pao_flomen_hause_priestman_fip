@@ -1,4 +1,4 @@
-#header img
+#header ul li img
 {
     width:100%;
 }
@@ -6,14 +6,14 @@
 #heads1
 {
     width: 100%;
-    position: relative;
+    position: inherit;
     display: inline-block;
 }
 
 #heads2
 {
     width: 100%;
-    position: relative;
+    position: inherit;
     display: inline-block;
 }
 
@@ -22,4 +22,9 @@
     width: 100%;
     position: absolute;
     display: inline-block;
+}
+
+#header li {
+    list-style: none;
+    display: inline;
 }
