@@ -16,7 +16,7 @@
 			case 'update':
 				$id = $_GET['ID'];
 				$_SESSION['ID']=$_GET['id'];
-				redirect_to('../admin.php?ID='.$id);
+				redirect_to('../adminUpdateInfo.php?ID='.$id);
 				break;
 		}
 	}
