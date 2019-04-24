@@ -4769,6 +4769,37 @@ footer h5 {
   }
 }
 
+.adminMenu {
+  clear: both;
+}
+
+#adminWelcome {
+  text-align: center;
+  padding-top: 50%;
+  margin-top: 5%;
+}
+@media only screen and (min-width: 425px) {
+  #adminWelcome {
+    margin-top: 1%;
+    padding-top: 10%;
+  }
+}
+
+#panelLogo {
+  width: 75%;
+  margin-left: 12%;
+  margin-top: 35%;
+  margin-bottom: 4%;
+  position: fixed;
+}
+@media only screen and (min-width: 600px) {
+  #panelLogo {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 33%;
+  }
+}
+
 #infoVid {
   width: 100%;
 }
