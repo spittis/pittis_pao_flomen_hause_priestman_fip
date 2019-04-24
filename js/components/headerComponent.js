@@ -1,18 +1,17 @@
 export default {
     template: `
-<div>
-    <ul id="header">
-        <!-- <div class="noMob dual"> -->
-          <li> <img id="heads1" class="noMob" src="images/Be_A_Donor.png" alt="header of faces" title="faces"> </li> 
-          <li> <img id="heads2" class="noMob" src="images/Save_8_Lives.png" alt="header of faces" title="faces"> </li> 
-        <!-- </div> -->
-    </ul>
+    <div>
+    <div class="noMob" id="header">
+         <div class="noMob dual"> 
+           <img id="heads1" class="noMob" src="images/Be_A_Donor.png" alt="header of faces" title="faces"> 
+           <img id="heads2" class="noMob" src="images/Save_8_Lives.png" alt="header of faces" title="faces"> 
+        </div> 
+    </div>
 
     <div id="header">
         <img id="heads" class="noWeb" src="images/Mobile_Hero.jpg" alt="header of faces" title="faces">
     </div>
 
-    
 </div>
     `,
 

@@ -55,7 +55,9 @@ var waypoint = new Waypoint({
       href: "#modal-content",
       className: "cta",
       onComplete: onPopupOpen,
-      onClosed: onPopupClose
+      onClosed: onPopupClose,
+      width: 722,
+    height: 720,
     });
   }
   
@@ -71,7 +73,7 @@ var waypoint = new Waypoint({
     setTimeout(function() {
       lastFocus = document.activeElement;
       displayPopup();
-    }, 1000);
+    }, 2*60*1000);
   }
 
   //2*60*1000
